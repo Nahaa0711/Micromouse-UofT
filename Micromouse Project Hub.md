@@ -31,6 +31,3 @@ Track daily progress, to-dos, and meeting minutes in this section.
 > “A well-structured knowledge repository accelerates development and reduces redundancy.”  
 
 Happy building and documenting your Micromouse! 🚀  
-
- https://en.wikipedia.org/wiki/Micromouse  
- https://obsidian.md/

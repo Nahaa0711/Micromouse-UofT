@@ -4,7 +4,7 @@ A Micromouse is a small, fully autonomous robot designed to navigate and solve a
 
 ---
 Related Links:
-[[Design graveyard]]
+[[Design graveyard]] - Populate Design 
 ---
 ## 1. Rules & Strategies
 
