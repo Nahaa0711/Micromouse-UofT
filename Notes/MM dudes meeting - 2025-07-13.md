@@ -28,6 +28,7 @@
 - Discord to-do tasks
 	- create exec channel w/ aahan, raghav, ashley, daniel, kovid
 	- create open channel for everyone in the team!
+	- create announcements/events channel!
 
 - Email Recruits
 	- Inform them of the date of our social
