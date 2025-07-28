@@ -24,13 +24,12 @@
 
 **TASKS FOR THE WEEK**
 *cross out when done pls <3*
-
 - Discord to-do tasks
-	- create exec channel w/ aahan, raghav, ashley, daniel, kovid
-	- create open channel for everyone in the team!
-	- create announcements/events channel!
+	- [x] create exec channel w/ aahan, raghav, ashley, daniel, kovid
+	- [x] create open channel for everyone in the team!
+	- [ ] create announcements/events channel!
 
-- Email Recruits
+- Email Recruits 
 	- Inform them of the date of our social
 	- Include a link to the discord so that they can join
 		- make sure discord channels are created first....

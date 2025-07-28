@@ -1,0 +1,24 @@
+- First meeting:
+	- [ ] Send Announcement on discord and email - include calendly
+	- [ ] Optional - find a room 
+	- [ ] Plan activities and order pizza
+- MM intro presentation
+	- [ ] Show them the rat
+	- [ ] [[MM Kahoot]] - Daniel 
+	- [ ] Share rough milestones for the year
+		- [ ] EOM Aug - Finalize components
+		- [ ] EOM Sept - Finalize schematics
+		- [ ] EOM OCT - Get PCBs - 
+		- [ ] EOM NOV - Completed Fabrication
+		- [ ] EOM DEC - Begin Integration
+	- [ ] **TASK**: Identify top 3 designs 
+- Making a Micromouse
+  - [ ] Start with compiling existing designs and identify constrains
+	  - [ ] Find 5 Top full size designs by 31-07
+	  - [ ] Top 5 Vision systems
+	  - [ ] Top 5 Mobility systems
+  - [ ] Identify Design Objectives and Bounding box
+	  - [ ] Configurable? 
+	  - [ ] Make a table of design choices 
+	  - [ ] Have a backup plan
+  - [ ] Find desired components
