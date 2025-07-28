@@ -33,7 +33,7 @@
 	- Inform them of the date of our social
 	- Include a link to the discord so that they can join
 		- make sure discord channels are created first....
-	- Send the initial research document and obsidian documentation to recruits as background info of Micromouse and what we've done so far
+	- ~~Send the initial research document and obsidian documentation to recruits as background info of Micromouse and what we've done so far~~
 - BOOK ROOM IN MYHAL OR BAHEN ON THE WEEKEND FOR OUR WEEKLY WORK SESSIONS
 - Complete the KiCad Tutorial
 - Complete STM32 Tutorial
