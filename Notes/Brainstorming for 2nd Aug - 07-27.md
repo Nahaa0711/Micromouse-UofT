@@ -1,5 +1,5 @@
 - First meeting:
-	- [ ] Send Announcement on discord and email - include calendly
+	- [x] Send Announcement on discord and email - include calendly
 	- [ ] Optional - find a room 
 	- [ ] Plan activities and order pizza
 - MM intro presentation
