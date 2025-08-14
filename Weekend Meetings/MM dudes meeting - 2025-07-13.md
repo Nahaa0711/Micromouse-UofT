@@ -1,6 +1,6 @@
 - KiCAD/Altium Workshop - Daniel - 
 	- Currently making an outline
-- STM32 Workshop - Raghav - 
+- [[STM32]] Workshop - Raghav - 
 	- Currently making an outline
 - **Communication with recruits*
 	- Add em to Discord and Slack - Make sub channel
@@ -27,7 +27,7 @@
 - Discord to-do tasks
 	- [x] create exec channel w/ aahan, raghav, ashley, daniel, kovid
 	- [x] create open channel for everyone in the team!
-	- [ ] create announcements/events channel!
+	- [x] create announcements/events channel!
 
 - Email Recruits 
 	- Inform them of the date of our social
@@ -36,5 +36,5 @@
 	- ~~Send the initial research document and obsidian documentation to recruits as background info of Micromouse and what we've done so far~~
 - BOOK ROOM IN MYHAL OR BAHEN ON THE WEEKEND FOR OUR WEEKLY WORK SESSIONS
 - Complete the KiCad Tutorial
-- Complete STM32 Tutorial
+- Complete [[STM32]] Tutorial
 

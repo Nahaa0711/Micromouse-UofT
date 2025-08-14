@@ -1,0 +1,52 @@
+- Modular shit design: https://kswichit.net/micromouse/micromouse.html
+	- https://github.com/ukmars/ukmarsbot
+- Cool design and process: https://github.com/Ojasp21/Micromouse
+#todo  - add links
+**Objectives & Constrains:**
+- Weight
+- Upgradability
+	- Reusable firmware and base design
+	- Redundant pins
+	- LCD?
+- Repairability
+	- Modular
+		- Self designed modules
+			- A base PCB and then module PCBs plug in on top
+			- SMD modules and through-hole PCB
+	- Debug pinouts 
+	- Traces (Multiple paths with open circuit, could be used to reroute traces)-hard switch
+	- Wireless communication
+- Traction
+	- Wheel dimensions and type
+	- Suction
+- Durability/unbreaking III
+	- Bumper pads?
+	- Must be able to handle a 5ft drop
+	- Protect against shorts and reverse polarity
+	- Fuses or fail-safes?
+- Acceleration/Power output
+	- Torque 
+	- Top speed
+	- Breaking
+		- ABS algorithm 
+- Steering/Maneuverability 
+	- Movement Physics  
+	- Gyroscope precision
+	- Control system
+	- Programmed curves 
+	- Optimal pathfinding
+- Perception
+	- Mode of perception
+	- Precision  
+	- Range
+	- Field Of View
+- Real-time responsiveness
+	- Interrupts
+	- Decision Latency 
+	- RTOS
+	- Critical processes
+- Battey
+	- Runtime
+	- Size and weight
+	- Voltage and Current
+	- Power management 
