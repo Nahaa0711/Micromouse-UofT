@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "VL6180V1NR_1")(type "KiCad")(uri "${KIPRJMOD}/../VL6180V1NR_1")(options "")(descr ""))
+  (lib (name "TCA9544APWR")(type "KiCad")(uri "${KIPRJMOD}/../TCA9544APWR")(options "")(descr ""))
+  (lib (name "LP5907MFX_2_8_NOPB")(type "KiCad")(uri "${KIPRJMOD}/../LP5907MFX_2_8_NOPB")(options "")(descr ""))
+)
