@@ -1,7 +1,8 @@
-- Modular shit design: https://kswichit.net/micromouse/micromouse.html
+- ~~Modular starter design~~: https://kswichit.net/micromouse/micromouse.html
 	- https://github.com/ukmars/ukmarsbot
 - Cool design and process: https://github.com/Ojasp21/Micromouse
 #todo  - add links
+
 **Objectives & Constrains:**
 - Weight
 - Upgradability
@@ -28,7 +29,7 @@
 	- Torque 
 	- Top speed
 	- Breaking
-		- ABS algorithm 
+	- ABS algorithm 
 - Steering/Maneuverability 
 	- Movement Physics  
 	- Gyroscope precision
@@ -50,3 +51,6 @@
 	- Size and weight
 	- Voltage and Current
 	- Power management 
+
+
+

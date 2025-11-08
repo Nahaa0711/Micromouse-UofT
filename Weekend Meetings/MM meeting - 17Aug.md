@@ -1,0 +1,37 @@
+
+ - [ ] Discuss your design explorations
+	 - [ ] Gideon:
+		 - [ ] Ensuring minimum slip ratios - 0.3 
+		 - [ ] Differential steering
+		 - [ ] Relationship of height and track width for turning acceleration
+		 - [ ] PID + ODE control system - MMS
+	- [ ] David
+		 - [ ] Fans - do we really need them?
+		 - [ ] Zypher RTOS 
+		 - [ ] On chip debugger
+	- [ ] Aahan's links:
+		- chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://sddec20-28.sd.ece.iastate.edu/docs/Final%20Report.pdf
+		-  https://github.com/joshuaccl/Micromouse?tab=readme-ov-file 
+		- https://bulebule.readthedocs.io/en/latest/_images/bulebule.jpg 
+		- https://hackaday.com/tag/micro-mouse/ 
+		- https://ukmars.org/contests/micromouse/ 
+		- https://micromouseonline.com/2017/11/26/japan-micromouse-2017/ 
+		- https://kswichit.net/micromouse/micromouse.html 
+		- https://micromouseonline.com/
+	
+ - [ ] Discuss Objectives and Constraints
+	-  Weight
+	- Upgradability
+	- Repairability
+	- Traction
+	- Durability/unbreaking III
+	- Acceleration/Power output
+	- Steering/Maneuverability 
+	- Perception
+	- Real-time responsiveness
+	- Battey
+ - [ ] Next steps
+	 - [ ] No meeting next week
+	 - [ ] Fill out https://www.when2meet.com/?31721576-G3PRw 
+	 - [ ] Think about design choices wrt th above objectives. We'll start drafting a design next time we meet
+	 - [ ] 2.5 hour solder challenge - TBD
