@@ -1,4 +1,4 @@
-1.How many Prototypes have we made so far?
+\1.How many Prototypes have we made so far?
 2.How many degrees of freedom does a Micromouse typically have? 
 3.Pick a sensor we haven't used
 4.Increasing **wheel diameter** tends to:  

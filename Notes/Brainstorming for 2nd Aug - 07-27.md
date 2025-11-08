@@ -3,8 +3,8 @@
 	- [ ] Optional - find a room 
 	- [ ] Plan activities and order pizza
 - MM intro presentation
-	- [ ] Show them the rat
-	- [ ] [[MM Kahoot]] - Daniel 
+	- [x] Show them the rat
+	- [x] [[MM Kahoot]] - Daniel 
 	- [ ] Share rough milestones for the year
 		- [ ] EOM Aug - Finalize components
 		- [ ] EOM Sept - Finalize schematics
