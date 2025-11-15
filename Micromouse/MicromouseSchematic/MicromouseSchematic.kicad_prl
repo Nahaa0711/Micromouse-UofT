@@ -29,6 +29,8 @@
       "zones": true
     },
     "visible_items": [
+      "ratsnest",
+      "grid",
       "shapes"
     ],
     "visible_layers": "00000000_00000000_0fffffff_ffffffff",
@@ -70,16 +72,16 @@
       9
     ],
     "col_widths": [
-      294,
-      279,
-      173,
-      140,
-      173,
-      173,
-      173,
-      136,
-      173,
-      173
+      368,
+      349,
+      216,
+      175,
+      216,
+      216,
+      216,
+      170,
+      216,
+      216
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
