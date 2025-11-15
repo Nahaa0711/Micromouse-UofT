@@ -1075,12 +1075,6 @@
 		(uuid "cd884755-279d-481e-9da9-c86ae4cd990a")
 	)
 	(junction
-		(at 43.18 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25883a58-0067-4b8c-82b2-2635c5e1eb6a")
-	)
-	(junction
 		(at 251.46 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1231,16 +1225,38 @@
 		(uuid "f6aa82ab-1f4f-4121-8644-852eae1cbfdb")
 	)
 	(junction
-		(at 34.29 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "faabd8b8-a442-41e7-913f-e00494b33369")
-	)
-	(junction
 		(at 139.7 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbe03413-8636-4e00-88c5-7d04dad17d88")
+	)
+	(no_connect
+		(at 82.55 87.63)
+		(uuid "0fc72b26-7437-4bd0-a8cd-01783938f42f")
+	)
+	(no_connect
+		(at 248.92 88.9)
+		(uuid "10f1ca10-6e01-494b-9f81-dce11363aeca")
+	)
+	(no_connect
+		(at 248.92 86.36)
+		(uuid "249a9d51-860e-439a-8749-b75e4ca4e3a6")
+	)
+	(no_connect
+		(at 133.35 80.01)
+		(uuid "316d3a09-f234-43bd-a931-f28a3cf11cd9")
+	)
+	(no_connect
+		(at 133.35 85.09)
+		(uuid "4e0309af-1ab7-4899-b673-7b10f8180108")
+	)
+	(no_connect
+		(at 133.35 82.55)
+		(uuid "96e1867d-5c61-4264-bece-bc1cf0126df8")
+	)
+	(no_connect
+		(at 248.92 91.44)
+		(uuid "cc07cd84-ce0a-48ed-ba4e-40eba05e0139")
 	)
 	(wire
 		(pts
@@ -1304,7 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 58.42) (xy 43.18 58.42)
+			(xy 34.29 58.42) (xy 63.5 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1794,16 +1810,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 63.5 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b342ded8-04a2-4599-aa57-660f5e23ebf5")
-	)
-	(wire
-		(pts
 			(xy 133.35 69.85) (xy 139.7 69.85)
 		)
 		(stroke
@@ -1914,16 +1920,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 95.25) (xy 34.29 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df1cba69-d54c-42fa-ae08-770969d026bf")
-	)
-	(wire
-		(pts
 			(xy 80.01 58.42) (xy 133.35 58.42)
 		)
 		(stroke
@@ -2001,16 +1997,6 @@
 			(type default)
 		)
 		(uuid "ebfa831b-6c7f-48ae-a571-71ad637dd419")
-	)
-	(wire
-		(pts
-			(xy 43.18 58.42) (xy 43.18 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edcf3a95-1fa1-400d-85df-7547c2aa6f5c")
 	)
 	(wire
 		(pts
@@ -2146,7 +2132,7 @@
 		(uuid "48cdc098-5729-4abc-bc2c-9bc2cd333479")
 	)
 	(hierarchical_label "SDA(Magnetometer)"
-		(shape output)
+		(shape input)
 		(at 186.69 83.82 0)
 		(effects
 			(font
@@ -2157,7 +2143,7 @@
 		(uuid "5e4a02d7-7869-4bd1-a42d-68c19519e028")
 	)
 	(hierarchical_label "SCL(Magnetometer)"
-		(shape output)
+		(shape input)
 		(at 186.69 78.74 0)
 		(effects
 			(font
@@ -2806,76 +2792,6 @@
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/020b5f85-8a9d-45f7-80e4-737602419b71"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 34.29 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f6150df-c74b-4887-963b-e5acc9d3b3e5")
-		(property "Reference" "R25"
-			(at 36.83 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 36.83 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 32.512 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 34.29 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a80ce5a-f54e-4b28-a4b2-0064c5b00a85")
-		)
-		(pin "2"
-			(uuid "a8aa74c0-32da-45d4-b61b-ef78a47a122f")
-		)
-		(instances
-			(project "MicromouseSchematic"
-				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/020b5f85-8a9d-45f7-80e4-737602419b71"
-					(reference "R25")
 					(unit 1)
 				)
 			)

@@ -7802,6 +7802,86 @@
 				(justify left top)
 			)
 		)
+		(pin "INT1 (IMU)" output
+			(at 222.25 19.05 180)
+			(uuid "61f50e53-9660-41d1-b31e-66ebb9eb1b5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA (IMU)" input
+			(at 222.25 21.59 180)
+			(uuid "403b2540-50cf-4547-820f-9fafeeeac45a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT2 (IMU)" bidirectional
+			(at 222.25 20.32 180)
+			(uuid "4f3d22dc-4f98-43c8-928e-a51f24ea9af2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA(Magnetometer)" input
+			(at 222.25 31.75 180)
+			(uuid "b406d35c-f389-47ad-a752-7966bd618b2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL(Magnetometer)" input
+			(at 222.25 34.29 180)
+			(uuid "ea884a37-8ed7-4855-8791-7db78867ae6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT(Magnetometer)" output
+			(at 222.25 29.21 180)
+			(uuid "1179d5c4-422d-4e22-afb9-bd4d9354a549")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL (IMU)" input
+			(at 222.25 22.86 180)
+			(uuid "ae9e0346-f76b-499e-9d8d-4602b845ff24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3V" input
+			(at 255.27 36.83 270)
+			(uuid "0d697680-d2f9-47b4-8c8c-c68adef40fd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5"
