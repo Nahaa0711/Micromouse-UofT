@@ -652,7 +652,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 85.09) (xy 67.31 85.09)
+			(xy 80.01 90.17) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -672,7 +672,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 90.17) (xy 187.96 90.17)
+			(xy 170.18 90.17) (xy 181.61 90.17)
 		)
 		(stroke
 			(width 0)
@@ -699,16 +699,6 @@
 			(type default)
 		)
 		(uuid "3df35eda-9ecb-469f-b252-b2221e50836b")
-	)
-	(wire
-		(pts
-			(xy 64.77 90.17) (xy 64.77 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "442e88f3-e93d-40d0-8b62-0ee791e47f67")
 	)
 	(wire
 		(pts
@@ -749,16 +739,6 @@
 			(type default)
 		)
 		(uuid "5f7aa50d-0404-4f0b-8b42-cfcef1c97383")
-	)
-	(wire
-		(pts
-			(xy 64.77 90.17) (xy 93.98 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65724d23-0407-4c30-926b-38a522940a59")
 	)
 	(wire
 		(pts
@@ -830,20 +810,20 @@
 		)
 		(uuid "faea6b3f-dc23-407f-941d-98a6de4d2a9f")
 	)
-	(hierarchical_label "Vin (7.4 V)"
+	(hierarchical_label "Vin(+7.4V)"
 		(shape input)
-		(at 67.31 85.09 0)
+		(at 80.01 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "499a6d54-e75a-4203-ac1d-9bde829575bd")
 	)
-	(hierarchical_label "Vout (3.3 V)"
+	(hierarchical_label "Vout(+3.3V)"
 		(shape output)
-		(at 187.96 90.17 0)
+		(at 181.61 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)

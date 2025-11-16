@@ -638,6 +638,10 @@
     [
       "020b5f85-8a9d-45f7-80e4-737602419b71",
       "IMU and Magnetometer"
+    ],
+    [
+      "13f4247b-848d-475d-83d5-f2fff083c70d",
+      "IR Sensors"
     ]
   ],
   "text_variables": {}
