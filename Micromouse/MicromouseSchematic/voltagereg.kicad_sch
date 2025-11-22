@@ -275,20 +275,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "VR1"
-				(at 0 15.24 0)
+			(property "Reference" "VR"
+				(at -10.16 10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "TPSM861253RDXR"
-				(at 0 12.7 0)
+				(at -10.16 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" "TPSM861253RDXR:VREG_TPSM861253RDXR"
@@ -426,6 +428,24 @@
 					)
 				)
 				(pin output line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
 					(at 15.24 2.54 180)
 					(length 5.08)
 					(name "PG"
@@ -472,26 +492,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPSM861253RDXR_1_0"
-				(pin power_out line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -639,6 +639,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b751c1a2-0672-414d-ae17-85532b8bd653")
+	)
+	(no_connect
+		(at 154.94 95.25)
+		(uuid "305bd7cd-0530-4176-879e-f7ded48d5494")
 	)
 	(wire
 		(pts
@@ -1044,7 +1048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ab1441e-d946-4c7c-8f1d-7a15d579c0f7")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin_VR1"
 			(at 87.63 96.5199 0)
 			(effects
 				(font
@@ -1098,7 +1102,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/3cd5e638-0450-45f9-91e1-d72f396e0d78"
-					(reference "Cin")
+					(reference "Cin_VR1")
 					(unit 1)
 				)
 			)
@@ -1130,7 +1134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPSM861253RDXR:VREG_TPSM861253RDXR"
+		(property "Footprint" "TPSM862253RDXR_FOOTPRINT:TPSM861253RDXR"
 			(at 139.7 97.79 0)
 			(effects
 				(font
@@ -1238,7 +1242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a02d4e5c-3369-4bfd-a59d-c5373d366b00")
-		(property "Reference" "Rent"
+		(property "Reference" "Rent1"
 			(at 109.22 92.7099 0)
 			(effects
 				(font
@@ -1292,7 +1296,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/3cd5e638-0450-45f9-91e1-d72f396e0d78"
-					(reference "Rent")
+					(reference "Rent1")
 					(unit 1)
 				)
 			)
@@ -1308,7 +1312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acccca25-da6a-4ec7-9ae0-fe9d228fa301")
-		(property "Reference" "Renb"
+		(property "Reference" "Renb1"
 			(at 109.22 101.5999 0)
 			(effects
 				(font
@@ -1362,7 +1366,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/3cd5e638-0450-45f9-91e1-d72f396e0d78"
-					(reference "Renb")
+					(reference "Renb1")
 					(unit 1)
 				)
 			)
