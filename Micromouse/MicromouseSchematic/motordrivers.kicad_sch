@@ -728,114 +728,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "V3P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "NSLEEP_LDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 66.04 0 180)
-					(length 7.62)
-					(name "NSLEEP_HB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 66.04 -2.54 180)
-					(length 7.62)
-					(name "VISEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 66.04 -5.08 180)
 					(length 7.62)
@@ -847,24 +739,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 66.04 -7.62 180)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -890,7 +764,135 @@
 						)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "MP6550GG-Z_1_1"
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "V3P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "NSLEEP_LDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 66.04 0 180)
+					(length 7.62)
+					(name "NSLEEP_HB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 66.04 -2.54 180)
+					(length 7.62)
+					(name "VISEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 66.04 -7.62 180)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 66.04 -12.7 180)
 					(length 7.62)
 					(name "ISET"
@@ -1126,6 +1128,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9bed074-273e-4546-9fb5-98095ad45d04")
+	)
+	(no_connect
+		(at 186.69 147.32)
+		(uuid "91ccd95c-4494-4c6c-b6ac-d202b4c7e38f")
+	)
+	(no_connect
+		(at 189.23 68.58)
+		(uuid "fa6a1890-f15c-4a0f-a42b-f4209b688a4f")
 	)
 	(wire
 		(pts
@@ -2931,7 +2941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IC12_MP6550_MNP"
+		(property "Footprint" "MP655OG-Z_FOOTPRINT:MP6550_MNP"
 			(at 80.01 128.27 0)
 			(effects
 				(font
@@ -3155,7 +3165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8374b1e-9d46-42c0-8da8-eb7d51c3cbf5")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin_MD1"
 			(at 38.1 31.7499 0)
 			(effects
 				(font
@@ -3209,7 +3219,7 @@
 		(instances
 			(project ""
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "Cin")
+					(reference "Cin_MD1")
 					(unit 1)
 				)
 			)
@@ -3377,7 +3387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IC12_MP6550_MNP"
+		(property "Footprint" "MP655OG-Z_FOOTPRINT:MP6550_MNP"
 			(at 82.55 49.53 0)
 			(effects
 				(font

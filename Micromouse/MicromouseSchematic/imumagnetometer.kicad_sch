@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ICM42688:ICM-42688-P"
+		(symbol "ICM-42688-P:ICM-42688-P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -628,7 +628,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LIS2MDL:LIS2MDLTR"
+		(symbol "LIS2MDLTR:LIS2MDLTR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1277,16 +1277,6 @@
 			(type default)
 		)
 		(uuid "06c38aa6-fabe-49b4-825c-3d9f0c96e030")
-	)
-	(wire
-		(pts
-			(xy 77.47 102.87) (xy 82.55 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a3fae3e-b810-4029-93a5-c0e34bdf51c4")
 	)
 	(wire
 		(pts
@@ -2020,6 +2010,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 102.87) (xy 82.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20c6421-fffd-44ce-9cbf-ea5fa6ed4b7f")
+	)
+	(wire
+		(pts
 			(xy 184.15 86.36) (xy 201.93 86.36)
 		)
 		(stroke
@@ -2527,7 +2527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LIS2MDL:LIS2MDLTR")
+		(lib_id "LIS2MDLTR:LIS2MDLTR")
 		(at 228.6 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2552,7 +2552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIS2MDLTR:PQFN50P200X200X70-12N"
+		(property "Footprint" "LIS2MDLTR_FOOTPRINT:LIS2MDLTR"
 			(at 228.6 83.82 0)
 			(effects
 				(font
@@ -3144,7 +3144,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ICM42688:ICM-42688-P")
+		(lib_id "ICM-42688-P:ICM-42688-P")
 		(at 107.95 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3169,7 +3169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N"
+		(property "Footprint" "ICM_42688_P_FOOTPRINT:ICM_42688_P"
 			(at 107.95 80.01 0)
 			(effects
 				(font
