@@ -2552,7 +2552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIS2MDLTR:PQFN50P200X200X70-12N"
+		(property "Footprint" "LIS2MDLTR_FOOTPRINT:LIS2MDLTR"
 			(at 228.6 83.82 0)
 			(effects
 				(font
