@@ -3956,7 +3956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 187.96 97.79 0)
 			(effects
 				(font
@@ -3965,7 +3965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 187.96 97.79 0)
 			(effects
 				(font
@@ -4607,7 +4607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 187.96 44.45 0)
 			(effects
 				(font
@@ -4616,7 +4616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 187.96 44.45 0)
 			(effects
 				(font
@@ -5104,7 +5104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -5113,7 +5113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -6055,7 +6055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 96.52 44.45 0)
 			(effects
 				(font
@@ -6064,7 +6064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 96.52 44.45 0)
 			(effects
 				(font

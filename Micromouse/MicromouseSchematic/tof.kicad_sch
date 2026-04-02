@@ -6759,7 +6759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LP5907MFX_2_8_NOPB:SOT95P280X145-5N"
+		(property "Footprint" "LP5907MFX-2.8_NOPB:SOT95P280X145-5N"
 			(at 189.23 133.35 0)
 			(effects
 				(font

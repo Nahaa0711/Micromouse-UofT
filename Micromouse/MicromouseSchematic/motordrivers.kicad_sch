@@ -2941,7 +2941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MP655OG-Z_FOOTPRINT:MP6550_MNP"
+		(property "Footprint" "MM_MP6550G-Z:MP6550_MNP"
 			(at 80.01 128.27 0)
 			(effects
 				(font
@@ -3387,7 +3387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MP655OG-Z_FOOTPRINT:MP6550_MNP"
+		(property "Footprint" "MM_MP6550G-Z:MP6550_MNP"
 			(at 82.55 49.53 0)
 			(effects
 				(font

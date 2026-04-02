@@ -2552,7 +2552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIS2MDLTR_FOOTPRINT:LIS2MDLTR"
+		(property "Footprint" "MM_LIS2MDLTR:LIS2MDLTR"
 			(at 228.6 83.82 0)
 			(effects
 				(font
@@ -3169,7 +3169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICM_42688_P_FOOTPRINT:ICM_42688_P"
+		(property "Footprint" "MM_ICM_42688_P:ICM_42688_P"
 			(at 107.95 80.01 0)
 			(effects
 				(font
