@@ -4075,7 +4075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VL6180V1NR_1:XDCR_VL6180V1NR_1"
+		(property "Footprint" "MM_VL6180V1NR_1:XDCR_VL6180V1NR_1"
 			(at 78.74 43.18 0)
 			(effects
 				(font
