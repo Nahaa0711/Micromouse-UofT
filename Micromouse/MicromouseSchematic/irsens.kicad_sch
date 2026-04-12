@@ -3463,7 +3463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SFH_3015_FA_FOOTPRINT:SFH_3015_FA"
+		(property "Footprint" "MM_SFH 3015 FA:SFH_3015_FA"
 			(at 77.47 55.88 0)
 			(effects
 				(font
@@ -3654,7 +3654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SFH_3015_FA_FOOTPRINT:SFH_3015_FA"
+		(property "Footprint" "MM_SFH 3015 FA:SFH_3015_FA"
 			(at 168.91 55.88 0)
 			(effects
 				(font
@@ -3987,7 +3987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3065LW-7_FOOTPRINT:DMN3065LW-7"
+		(property "Footprint" "MM_DMN3065LW-7:DMN3065LW-7"
 			(at 193.04 95.25 0)
 			(effects
 				(font
@@ -4313,14 +4313,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SFH_3015_FA_FOOTPRINT:SFH_3015_FA"
+		(property "Footprint" "MM_SFH 3015 FA:SFH_3015_FA"
 			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4638,7 +4637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3065LW-7_FOOTPRINT:DMN3065LW-7"
+		(property "Footprint" "MM_DMN3065LW-7:DMN3065LW-7"
 			(at 193.04 41.91 0)
 			(effects
 				(font
@@ -4944,7 +4943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SFH_3015_FA_FOOTPRINT:SFH_3015_FA"
+		(property "Footprint" "MM_SFH 3015 FA:SFH_3015_FA"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -5135,7 +5134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3065LW-7_FOOTPRINT:DMN3065LW-7"
+		(property "Footprint" "MM_DMN3065LW-7:DMN3065LW-7"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -6086,7 +6085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3065LW-7_FOOTPRINT:DMN3065LW-7"
+		(property "Footprint" "MM_DMN3065LW-7:DMN3065LW-7"
 			(at 101.6 41.91 0)
 			(effects
 				(font

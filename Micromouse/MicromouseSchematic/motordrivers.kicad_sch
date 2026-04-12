@@ -3127,7 +3127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MM_MP6550G-Z:MP6550_MNP"
+		(property "Footprint" "Library:IC12_MP6550_MNP"
 			(at 80.01 128.27 0)
 			(effects
 				(font
@@ -3642,7 +3642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MM_MP6550G-Z:MP6550_MNP"
+		(property "Footprint" "Library:IC12_MP6550_MNP"
 			(at 82.55 49.53 0)
 			(effects
 				(font

@@ -5095,7 +5095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VL6180V1NR_1:XDCR_VL6180V1NR_1"
+		(property "Footprint" "MM_VL6180V1NR_1:XDCR_VL6180V1NR_1"
 			(at 196.85 43.18 0)
 			(effects
 				(font
@@ -5372,7 +5372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VL6180V1NR_1:XDCR_VL6180V1NR_1"
+		(property "Footprint" "MM_VL6180V1NR_1:XDCR_VL6180V1NR_1"
 			(at 78.74 90.17 0)
 			(effects
 				(font
@@ -5986,7 +5986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VL6180V1NR_1:XDCR_VL6180V1NR_1"
+		(property "Footprint" "MM_VL6180V1NR_1:XDCR_VL6180V1NR_1"
 			(at 196.85 90.17 0)
 			(effects
 				(font
@@ -6596,7 +6596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCA9544APWR:SOP65P640X120-20N"
+		(property "Footprint" "MM_TCA9544APWR:SOP65P640X120-20N"
 			(at 127 156.21 0)
 			(effects
 				(font
@@ -6759,7 +6759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LP5907MFX-2.8_NOPB:SOT95P280X145-5N"
+		(property "Footprint" "MM_LP5907MFX_2_8_NOPB:SOT95P280X145-5N"
 			(at 189.23 133.35 0)
 			(effects
 				(font
