@@ -1,5 +1,19 @@
 .obsidian/
 .DS_Store
-.gitignore
 Micromouse/MicromouseSchematic/.DS_Store
 */.DS_Store
+
+# KiCad — regenerate locally; avoids path noise and huge diffs
+Micromouse/MicromouseSchematic/fp-info-cache
+Micromouse/MicromouseSchematic/*.kicad_prl
+Micromouse/MicromouseSchematic/*-backups/
+Micromouse/MicromouseSchematic/**/*.lck
+Micromouse/MicromouseSchematic/~*.lck
+Micromouse/MicromouseSchematic/~*.kicad_sch.lck
+**/~*.kicad_sch.lck
+*.bak
+*_bak
+_autosave-*
+
+# Optional ERC export (if you save JSON next to the repo root)
+/ERC.json

@@ -293,7 +293,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LP5907MFX-2.8_NOPB:SOT95P280X145-5N"
+			(property "Footprint" "MM_LP5907MFX_2_8_NOPB:SOT95P280X145-5N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -451,7 +451,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TCA9544APWR:SOP65P640X120-20N"
+			(property "Footprint" "MM_TCA9544APWR:SOP65P640X120-20N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -919,7 +919,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "VL6180V1NR_1:XDCR_VL6180V1NR_1"
+			(property "Footprint" "MM_VL6180V1NR_1:XDCR_VL6180V1NR_1"
 				(at 0 0 0)
 				(effects
 					(font

@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TPSM861253RDXR:VREG_TPSM861253RDXR"
+		(property "Footprint" "MM_TPSM861253RDXR:TPSM861253RDXR"
 			(at 0 0 0)
 			(effects
 				(font

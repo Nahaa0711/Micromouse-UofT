@@ -7,7 +7,7 @@
     (property "Value" "ICM-42688-P" (id 1) (at -20.32 -20.32 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N" (id 2) (at 0 0 0)
+    (property "Footprint" "MM_ICM_42688_P:ICM_42688_P" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "PARTREV" "1.2" (id 4) (at 0 0 0)

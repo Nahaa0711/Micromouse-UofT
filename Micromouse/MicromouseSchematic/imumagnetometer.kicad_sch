@@ -293,7 +293,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N"
+			(property "Footprint" "MM_ICM_42688_P:ICM_42688_P"
 				(at 0 0 0)
 				(effects
 					(font
@@ -653,7 +653,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LIS2MDLTR:PQFN50P200X200X70-12N"
+			(property "Footprint" "MM_LIS2MDLTR:LIS2MDLTR"
 				(at 0 0 0)
 				(effects
 					(font

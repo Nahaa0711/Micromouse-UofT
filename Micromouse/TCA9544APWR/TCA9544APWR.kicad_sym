@@ -7,7 +7,7 @@
     (property "Value" "TCA9544APWR" (id 1) (at -12.7 -30.48 0.0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "TCA9544APWR:SOP65P640X120-20N" (id 2) (at 0 0 0)
+    (property "Footprint" "MM_TCA9544APWR:SOP65P640X120-20N" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "PARTREV" "C" (id 4) (at 0 0 0)

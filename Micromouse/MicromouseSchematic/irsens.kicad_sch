@@ -721,7 +721,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SFH_3015_FA:XDCR_SFH_3015_FA"
+			(property "Footprint" "MM_SFH 3015 FA:SFH_3015_FA"
 				(at 0 0 0)
 				(effects
 					(font
