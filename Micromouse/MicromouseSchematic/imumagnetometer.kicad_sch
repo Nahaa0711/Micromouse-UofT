@@ -1077,12 +1077,6 @@
 		(uuid "cd884755-279d-481e-9da9-c86ae4cd990a")
 	)
 	(junction
-		(at 88.9 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f518c2b-f3fe-45fb-bdad-110048b467e3")
-	)
-	(junction
 		(at 251.46 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1135,12 +1129,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73ae0bfc-7b36-4ce6-af6e-8748e38f2b99")
-	)
-	(junction
-		(at 133.35 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e925c2c-9c63-4d5a-813d-e7e4f6570652")
 	)
 	(junction
 		(at 271.78 87.63)
@@ -1364,16 +1352,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 120.65) (xy 88.9 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20a0305a-2ee0-440b-b777-7e79d869a698")
-	)
-	(wire
-		(pts
 			(xy 256.54 81.28) (xy 256.54 92.71)
 		)
 		(stroke
@@ -1404,13 +1382,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 82.55) (xy 63.5 82.55)
+			(xy 34.29 82.55) (xy 63.5 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "27373aa2-6006-4b0e-8aa3-f31789bfd62d")
+	)
+	(wire
+		(pts
+			(xy 190.5 73.66) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d31a17-a16e-4e3f-9347-5dfa927d6188")
 	)
 	(wire
 		(pts
@@ -1421,16 +1409,6 @@
 			(type default)
 		)
 		(uuid "2a3f64f0-927f-4fb5-91b7-3448703c0670")
-	)
-	(wire
-		(pts
-			(xy 133.35 121.92) (xy 129.54 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b46fa7e-3944-47cb-a6ab-3d70f0ec2758")
 	)
 	(wire
 		(pts
@@ -1491,16 +1469,6 @@
 			(type default)
 		)
 		(uuid "4f39fe4b-4827-45ff-8ddd-c23323242f18")
-	)
-	(wire
-		(pts
-			(xy 92.71 120.65) (xy 88.9 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f6225cf-be56-4cfc-a6ff-59652b4aff42")
 	)
 	(wire
 		(pts
@@ -1644,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 86.36) (xy 201.93 86.36)
+			(xy 190.5 86.36) (xy 201.93 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1744,16 +1712,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 73.66) (xy 190.5 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e63049a-5b3b-4ea5-8251-e0a5594ef382")
-	)
-	(wire
-		(pts
 			(xy 34.29 50.8) (xy 34.29 58.42)
 		)
 		(stroke
@@ -1784,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 74.93 85.09)
+			(xy 50.8 85.09) (xy 74.93 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1841,16 +1799,6 @@
 			(type default)
 		)
 		(uuid "bf3a9750-48fe-44e6-a944-0f116133cebe")
-	)
-	(wire
-		(pts
-			(xy 88.9 120.65) (xy 85.09 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1ff0e03-8fde-47dc-8c6f-ec46dd23d667")
 	)
 	(wire
 		(pts
@@ -1994,26 +1942,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 121.92) (xy 133.35 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2bbff25-8c14-46d2-b8f7-8d1ce8d2134f")
-	)
-	(wire
-		(pts
-			(xy 133.35 121.92) (xy 133.35 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2f73226-b3bc-46fc-b8ff-87d0396d42a2")
-	)
-	(wire
-		(pts
 			(xy 201.93 73.66) (xy 201.93 86.36)
 		)
 		(stroke
@@ -2092,86 +2020,6 @@
 		)
 		(uuid "fe5f8199-2a7b-4c58-a659-c2982cc4a8b9")
 	)
-	(label "SDA(Magnetometer)"
-		(at 191.77 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "013b59c3-22f8-47ab-b71f-85fb47b0d5f6")
-	)
-	(label "SCL_(IMU)"
-		(at 35.56 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10daa5ec-64f7-4f7d-975e-c13d254dcf96")
-	)
-	(label "SDA_(IMU)"
-		(at 44.45 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26fa2fc5-fe9e-4a4f-a5e3-89d359656ec7")
-	)
-	(label "SCL(Magnetometer)"
-		(at 92.71 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32490526-3519-447c-b5f6-a32e90827e9b")
-	)
-	(label "SCL(Magnetometer)"
-		(at 190.5 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "468d5721-eb64-4723-87a8-b163db4fe94e")
-	)
-	(label "SCL_(IMU)"
-		(at 85.09 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "72500ff1-2d85-4df6-ac3e-0d04a592029a")
-	)
-	(label "SDA(Magnetometer)"
-		(at 137.16 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8daee844-5e7f-46eb-b9a9-052bdbab39f3")
-	)
-	(label "SDA_(IMU)"
-		(at 129.54 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c076efeb-a962-43fb-a5be-4a64d7a4f5f7")
-	)
 	(hierarchical_label "INT1 (IMU)"
 		(shape output)
 		(at 147.32 88.9 0)
@@ -2182,17 +2030,6 @@
 			(justify left)
 		)
 		(uuid "0b927b0f-96aa-4ca7-a397-5cb90a5d4d7a")
-	)
-	(hierarchical_label "SDA(Common)"
-		(shape input)
-		(at 133.35 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39ab700f-a977-4002-8512-8da95836ecea")
 	)
 	(hierarchical_label "INT2 (IMU)"
 		(shape bidirectional)
@@ -2205,16 +2042,38 @@
 		)
 		(uuid "48cdc098-5729-4abc-bc2c-9bc2cd333479")
 	)
-	(hierarchical_label "SCL (Common)"
+	(hierarchical_label "SDA(Common)"
 		(shape input)
-		(at 88.9 125.73 0)
+		(at 50.8 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "8ff14993-6d9a-4661-a290-dd9d57f8c52f")
+		(uuid "5c4a8334-477b-4e45-86a9-8e712877a6bb")
+	)
+	(hierarchical_label "SCL (Common)"
+		(shape input)
+		(at 190.5 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78a38e91-defb-4484-a50c-0df80dca1bbb")
+	)
+	(hierarchical_label "SDA(Common)"
+		(shape input)
+		(at 190.5 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95a265e9-8e40-4356-9198-3e763bd3896f")
 	)
 	(hierarchical_label "INT(Magnetometer)"
 		(shape output)
@@ -2226,6 +2085,17 @@
 			(justify left)
 		)
 		(uuid "9cefa94c-81eb-4497-907c-87e6f08ed1c8")
+	)
+	(hierarchical_label "SCL (Common)"
+		(shape input)
+		(at 34.29 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5370aa4-d0fc-4df1-a128-0e36fe7debc9")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
