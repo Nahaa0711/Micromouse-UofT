@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IC12_MP6550_MNP"
+		(property "Footprint" "MM_MP6550G-Z:MP6550_MNP"
 			(at 0 0 0)
 			(effects
 				(font

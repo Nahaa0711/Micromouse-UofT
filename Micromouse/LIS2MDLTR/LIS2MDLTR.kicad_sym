@@ -7,7 +7,7 @@
     (property "Value" "LIS2MDLTR" (id 1) (at -15.24 -20.32 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "LIS2MDLTR:PQFN50P200X200X70-12N" (id 2) (at 0 0 0)
+    (property "Footprint" "MM_LIS2MDLTR:LIS2MDLTR" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "PARTREV" "Rev 5" (id 4) (at 0 0 0)

@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LP5907MFX-2.8_NOPB:SOT95P280X145-5N"
+		(property "Footprint" "MM_LP5907MFX_2_8_NOPB:SOT95P280X145-5N"
 			(at 0 0 0)
 			(effects
 				(font

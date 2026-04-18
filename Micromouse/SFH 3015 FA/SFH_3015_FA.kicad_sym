@@ -7,7 +7,7 @@
     (property "Value" "SFH_3015_FA" (id 1) (at -10.1508 -7.62 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "SFH_3015_FA:XDCR_SFH_3015_FA" (id 2) (at 0 0 0)
+    (property "Footprint" "MM_SFH 3015 FA:SFH_3015_FA" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "MF" "OSRAM Opto" (id 4) (at 0 0 0)

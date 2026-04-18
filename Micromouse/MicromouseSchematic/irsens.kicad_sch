@@ -721,7 +721,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SFH_3015_FA:XDCR_SFH_3015_FA"
+			(property "Footprint" "MM_SFH 3015 FA:SFH_3015_FA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1780,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 100.33) (xy 152.4 111.76)
+			(xy 152.4 101.6) (xy 152.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1800,13 +1800,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 58.42) (xy 60.96 58.42)
+			(xy 48.26 58.42) (xy 60.96 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0acd411b-9c12-424d-908e-3147cd1fb0b1")
+	)
+	(wire
+		(pts
+			(xy 146.05 106.68) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c07cc7a-e6b9-43fc-9b96-6c2cd929d095")
 	)
 	(wire
 		(pts
@@ -1860,13 +1870,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 55.88) (xy 149.86 55.88)
+			(xy 151.13 55.88) (xy 144.78 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "13b0cd16-a997-4f99-ad1c-fa91f2befc53")
+	)
+	(wire
+		(pts
+			(xy 48.26 53.34) (xy 58.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ff474c-4d8e-438b-9251-65f64a5bbc09")
 	)
 	(wire
 		(pts
@@ -2040,7 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 58.42) (xy 152.4 58.42)
+			(xy 144.78 58.42) (xy 152.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +2130,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 109.22) (xy 149.86 109.22)
+			(xy 151.13 109.22) (xy 146.05 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2130,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 46.99) (xy 60.96 46.99)
+			(xy 55.88 48.26) (xy 60.96 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 92.71) (xy 149.86 106.68)
+			(xy 149.86 91.44) (xy 149.86 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2160,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 46.99) (xy 152.4 58.42)
+			(xy 152.4 48.26) (xy 152.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2180,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 100.33) (xy 60.96 111.76)
+			(xy 60.96 101.6) (xy 60.96 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2200,7 +2220,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 92.71) (xy 149.86 92.71)
+			(xy 138.43 91.44) (xy 149.86 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2280,7 +2300,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 39.37) (xy 58.42 39.37)
+			(xy 45.72 40.64) (xy 58.42 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2290,7 +2310,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 60.96) (xy 67.31 60.96)
+			(xy 48.26 60.96) (xy 67.31 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2310,7 +2330,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 43.18) (xy 151.13 43.18)
+			(xy 140.97 44.45) (xy 151.13 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2410,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 60.96) (xy 158.75 60.96)
+			(xy 144.78 60.96) (xy 158.75 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2450,7 +2470,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 158.75 114.3)
+			(xy 146.05 114.3) (xy 158.75 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2480,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 46.99) (xy 152.4 46.99)
+			(xy 146.05 48.26) (xy 152.4 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2490,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 100.33) (xy 60.96 100.33)
+			(xy 57.15 101.6) (xy 60.96 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2500,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 109.22) (xy 58.42 109.22)
+			(xy 59.69 109.22) (xy 52.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2530,7 +2550,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 39.37) (xy 149.86 53.34)
+			(xy 149.86 40.64) (xy 149.86 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2570,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 96.52) (xy 151.13 96.52)
+			(xy 143.51 96.52) (xy 151.13 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2620,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 43.18) (xy 151.13 55.88)
+			(xy 151.13 44.45) (xy 151.13 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2680,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 114.3) (xy 67.31 114.3)
+			(xy 52.07 114.3) (xy 67.31 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2690,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 100.33) (xy 152.4 100.33)
+			(xy 148.59 101.6) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2710,7 +2730,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 39.37) (xy 149.86 39.37)
+			(xy 134.62 40.64) (xy 149.86 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2747,6 +2767,16 @@
 			(type default)
 		)
 		(uuid "b4c3f1f1-e902-4046-a5ab-ad895282a7ec")
+	)
+	(wire
+		(pts
+			(xy 52.07 106.68) (xy 58.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b545102a-dd71-443f-bfdd-53a3e488d0db")
 	)
 	(wire
 		(pts
@@ -2880,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 46.99) (xy 60.96 58.42)
+			(xy 60.96 48.26) (xy 60.96 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +2940,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 43.18) (xy 59.69 43.18)
+			(xy 50.8 44.45) (xy 59.69 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2930,7 +2960,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 39.37) (xy 58.42 53.34)
+			(xy 58.42 40.64) (xy 58.42 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2960,7 +2990,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 111.76) (xy 60.96 111.76)
+			(xy 52.07 111.76) (xy 60.96 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2970,7 +3000,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 92.71) (xy 58.42 92.71)
+			(xy 144.78 53.34) (xy 149.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf31840-cecf-4312-90bc-65030d8bf0bc")
+	)
+	(wire
+		(pts
+			(xy 46.99 92.71) (xy 58.42 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3040,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 43.18) (xy 59.69 55.88)
+			(xy 59.69 44.45) (xy 59.69 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3050,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 55.88) (xy 58.42 55.88)
+			(xy 59.69 55.88) (xy 48.26 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3070,7 +3110,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 96.52) (xy 59.69 96.52)
+			(xy 53.34 96.52) (xy 59.69 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3180,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 152.4 111.76)
+			(xy 146.05 111.76) (xy 152.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3200,7 +3240,7 @@
 	)
 	(hierarchical_label "IR_REC_1"
 		(shape output)
-		(at 57.15 46.99 180)
+		(at 55.88 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3211,7 +3251,7 @@
 	)
 	(hierarchical_label "IR_REC_2"
 		(shape output)
-		(at 148.59 46.99 180)
+		(at 146.05 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3222,7 +3262,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 148.59 92.71 180)
+		(at 138.43 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3233,7 +3273,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 148.59 39.37 180)
+		(at 134.62 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3244,7 +3284,7 @@
 	)
 	(hierarchical_label "IR_POW_1"
 		(shape input)
-		(at 57.15 43.18 180)
+		(at 50.8 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3255,7 +3295,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 57.15 92.71 180)
+		(at 46.99 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3266,7 +3306,7 @@
 	)
 	(hierarchical_label "IR_REC_3"
 		(shape output)
-		(at 57.15 100.33 180)
+		(at 57.15 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3277,7 +3317,7 @@
 	)
 	(hierarchical_label "IR_POW_4"
 		(shape input)
-		(at 148.59 96.52 180)
+		(at 143.51 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3288,7 +3328,7 @@
 	)
 	(hierarchical_label "IR_POW_2"
 		(shape input)
-		(at 148.59 43.18 180)
+		(at 140.97 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3299,7 +3339,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 57.15 39.37 180)
+		(at 45.72 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3310,7 +3350,7 @@
 	)
 	(hierarchical_label "IR_REC_4"
 		(shape output)
-		(at 148.59 100.33 180)
+		(at 148.59 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3321,7 +3361,7 @@
 	)
 	(hierarchical_label "IR_POW_3"
 		(shape input)
-		(at 57.15 96.52 180)
+		(at 53.34 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3423,7 +3463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SFH_3015_FA_FOOTPRINT:SFH_3015_FA"
+		(property "Footprint" "MM_SFH 3015 FA:SFH_3015_FA"
 			(at 77.47 55.88 0)
 			(effects
 				(font
@@ -3614,7 +3654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SFH_3015_FA_FOOTPRINT:SFH_3015_FA"
+		(property "Footprint" "MM_SFH 3015 FA:SFH_3015_FA"
 			(at 168.91 55.88 0)
 			(effects
 				(font
@@ -3779,7 +3819,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 144.78 55.88 0)
+		(at 139.7 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3787,7 +3827,7 @@
 		(dnp no)
 		(uuid "1c8245c5-d21b-4932-995f-f6f34bc26ab1")
 		(property "Reference" "J7"
-			(at 143.256 51.308 0)
+			(at 138.176 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3835,7 @@
 			)
 		)
 		(property "Value" "IR_2"
-			(at 139.192 57.912 90)
+			(at 134.112 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +3843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 55.88 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 55.88 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +3861,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 144.78 55.88 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +3987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3065LW-7_FOOTPRINT:DMN3065LW-7"
+		(property "Footprint" "MM_DMN3065LW-7:DMN3065LW-7"
 			(at 193.04 95.25 0)
 			(effects
 				(font
@@ -3956,7 +3996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 187.96 97.79 0)
 			(effects
 				(font
@@ -3965,7 +4005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 187.96 97.79 0)
 			(effects
 				(font
@@ -4273,14 +4313,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SFH_3015_FA_FOOTPRINT:SFH_3015_FA"
+		(property "Footprint" "MM_SFH 3015 FA:SFH_3015_FA"
 			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4598,7 +4637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3065LW-7_FOOTPRINT:DMN3065LW-7"
+		(property "Footprint" "MM_DMN3065LW-7:DMN3065LW-7"
 			(at 193.04 41.91 0)
 			(effects
 				(font
@@ -4607,7 +4646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 187.96 44.45 0)
 			(effects
 				(font
@@ -4616,7 +4655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 187.96 44.45 0)
 			(effects
 				(font
@@ -4904,7 +4943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SFH_3015_FA_FOOTPRINT:SFH_3015_FA"
+		(property "Footprint" "MM_SFH 3015 FA:SFH_3015_FA"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -5095,7 +5134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3065LW-7_FOOTPRINT:DMN3065LW-7"
+		(property "Footprint" "MM_DMN3065LW-7:DMN3065LW-7"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -5104,7 +5143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -5113,7 +5152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -5168,7 +5207,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 144.78 109.22 0)
+		(at 140.97 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5176,7 +5215,7 @@
 		(dnp no)
 		(uuid "6eaa7cbe-0fd3-4dba-ac84-3336d783df87")
 		(property "Reference" "J9"
-			(at 143.256 104.648 0)
+			(at 139.446 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5184,7 +5223,7 @@
 			)
 		)
 		(property "Value" "IR_4"
-			(at 139.192 111.252 90)
+			(at 135.382 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +5231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 109.22 0)
+			(at 140.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,7 +5240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 109.22 0)
+			(at 140.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +5249,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 144.78 109.22 0)
+			(at 140.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +5428,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 53.34 109.22 0)
+		(at 46.99 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5397,7 +5436,7 @@
 		(dnp no)
 		(uuid "9cea96db-e1a6-4d94-9235-89b93353de9e")
 		(property "Reference" "J8"
-			(at 51.816 104.648 0)
+			(at 45.466 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5444,7 @@
 			)
 		)
 		(property "Value" "IR_3"
-			(at 47.752 111.252 90)
+			(at 41.402 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5413,7 +5452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 109.22 0)
+			(at 46.99 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 109.22 0)
+			(at 46.99 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5470,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 53.34 109.22 0)
+			(at 46.99 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,7 +5917,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 53.34 55.88 0)
+		(at 43.18 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5886,7 +5925,7 @@
 		(dnp no)
 		(uuid "e654a714-607b-4ec4-b2c3-96b026b8d858")
 		(property "Reference" "J6"
-			(at 51.816 51.308 0)
+			(at 41.656 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +5933,7 @@
 			)
 		)
 		(property "Value" "IR_1"
-			(at 47.752 57.912 90)
+			(at 37.592 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +5941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 55.88 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +5950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 55.88 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5959,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 53.34 55.88 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3065LW-7_FOOTPRINT:DMN3065LW-7"
+		(property "Footprint" "MM_DMN3065LW-7:DMN3065LW-7"
 			(at 101.6 41.91 0)
 			(effects
 				(font
@@ -6055,7 +6094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 96.52 44.45 0)
 			(effects
 				(font
@@ -6064,7 +6103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 96.52 44.45 0)
 			(effects
 				(font
