@@ -3256,7 +3256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
 			(at 139.7 55.88 0)
 			(effects
 				(font
@@ -4315,7 +4315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
 			(at 140.97 109.22 0)
 			(effects
 				(font
@@ -4667,7 +4667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
 			(at 46.99 109.22 0)
 			(effects
 				(font
@@ -5217,7 +5217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
 			(at 43.18 55.88 0)
 			(effects
 				(font

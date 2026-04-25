@@ -7918,7 +7918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical"
 			(at 29.21 138.43 0)
 			(effects
 				(font
@@ -8525,7 +8525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "10p"
 			(at 20.574 67.31 0)
 			(effects
 				(font
@@ -8728,7 +8728,7 @@
 				)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "10p"
 			(at 38.354 66.294 90)
 			(effects
 				(font
@@ -9543,7 +9543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
 			(at 30.48 69.85 0)
 			(effects
 				(font
@@ -9612,7 +9612,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
 			(at 11.43 49.53 0)
 			(effects
 				(font
@@ -9811,7 +9811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 113.03 186.69 0)
 			(effects
 				(font
@@ -9948,7 +9948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 149.86 27.178 90)
 			(effects
 				(font
@@ -11057,7 +11057,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
 			(at 36.83 30.48 0)
 			(effects
 				(font
@@ -11127,7 +11127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical"
 			(at 142.24 60.96 0)
 			(effects
 				(font
