@@ -8,4 +8,5 @@
   (lib (name "TPSM861253RDXR")(type "KiCad")(uri "${KIPRJMOD}/../TPSM861253RDXR/TPSM861253RDXR.kicad_sym")(options "")(descr ""))
   (lib (name "ICM-42688-P")(type "KiCad")(uri "${KIPRJMOD}/../ICM_42688_P/ICM-42688-P.kicad_sym")(options "")(descr ""))
   (lib (name "LIS2MDLTR")(type "KiCad")(uri "${KIPRJMOD}/../LIS2MDLTR/LIS2MDLTR.kicad_sym")(options "")(descr ""))
+  (lib (name "VL53L4CDV0DH/1")(type "KiCad")(uri "${KIPRJMOD}/../VL53L4CDV0DH-1/ul_VL53L4CDV0DH-1/KiCADv6/2026-04-25_22-08-44.kicad_sym")(options "")(descr ""))
 )
