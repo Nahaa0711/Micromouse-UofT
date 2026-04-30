@@ -1176,7 +1176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_ZH_B3B-ZR_1x03_P1.50mm_Vertical"
 			(at 76.2 64.77 0)
 			(effects
 				(font
