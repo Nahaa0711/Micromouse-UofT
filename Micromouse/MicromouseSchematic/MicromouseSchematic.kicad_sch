@@ -11471,7 +11471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:CUI_PD-30"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 134.62 99.06 0)
 			(effects
 				(font
