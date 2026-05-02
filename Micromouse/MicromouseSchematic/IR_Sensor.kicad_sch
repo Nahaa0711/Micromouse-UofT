@@ -2317,7 +2317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3065LW-7"
+		(property "Footprint" "MM_DMN3065LW-7:DMN3065LW-7"
 			(at 143.51 68.58 0)
 			(effects
 				(font
