@@ -10,9 +10,7 @@ Micromouse/MicromouseSchematic/*-backups/
 Micromouse/MicromouseSchematic/**/*.lck
 Micromouse/MicromouseSchematic/~*.lck
 Micromouse/MicromouseSchematic/~*.kicad_sch.lck
-Micromouse/MicromouseSchematic/micromouse_schematic_backups/
-
-**/~*.kicad_sch.lck
+Micromouse/MicromouseSchematic/MicromouseSchematic-backups/
 *.bak
 *_bak
 _autosave-*
