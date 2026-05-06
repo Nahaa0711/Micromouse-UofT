@@ -19,3 +19,7 @@ _autosave-*
 
 # Optional ERC export (if you save JSON next to the repo root)
 /ERC.json
+
+# Team-merge scratch (git worktrees + manual diff dumps)
+/kicad-merge-sources/
+/difference_finder.txt
