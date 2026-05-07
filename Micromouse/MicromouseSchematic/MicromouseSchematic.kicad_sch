@@ -4230,12 +4230,6 @@
 		(uuid "78781ac1-7b9b-4980-997d-116959f1c63c")
 	)
 	(junction
-		(at 68.58 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d6bdb5b-caab-4051-a0b4-4cf480fcb22e")
-	)
-	(junction
 		(at 119.38 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4264,6 +4258,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5228d15-a569-4110-a231-edc3bf33a6fd")
+	)
+	(junction
+		(at 68.58 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c592b205-72d3-4768-a732-aa85e281c3a3")
 	)
 	(junction
 		(at 110.49 25.4)
@@ -5265,16 +5265,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 25.4) (xy 68.58 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78cdf630-ac9c-445b-9def-be89028f2c84")
-	)
-	(wire
-		(pts
 			(xy 101.6 57.15) (xy 99.06 57.15)
 		)
 		(stroke
@@ -6042,6 +6032,16 @@
 			(type default)
 		)
 		(uuid "ed2e45c4-60e3-478a-85ab-4f08d1d7083a")
+	)
+	(wire
+		(pts
+			(xy 68.58 25.4) (xy 68.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed46f822-2076-48ec-80f1-6d9aac9e31d2")
 	)
 	(wire
 		(pts
@@ -7978,7 +7978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_ZH_B6B-ZR-SM4-TF_1x06-1MP_P1.50mm_Vertical"
 			(at 29.21 138.43 0)
 			(effects
 				(font

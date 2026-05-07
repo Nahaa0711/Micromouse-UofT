@@ -1814,7 +1814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "686c4487-3530-42b4-9cc3-03d6fdd97664")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0102"
 			(at 107.95 110.49 0)
 			(effects
 				(font
@@ -1864,15 +1864,15 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/13f4247b-848d-475d-83d5-f2fff083c70d/13dfd103-1647-47ca-a8d4-32c9a2fd1e3b"
-					(reference "#PWR017")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/13f4247b-848d-475d-83d5-f2fff083c70d/25d673b4-6a3b-4604-bba1-73aa25dddacb"
-					(reference "#PWR018")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/13f4247b-848d-475d-83d5-f2fff083c70d/c3359d57-31d6-4e97-bb88-fe098e219bf4"
-					(reference "#PWR016")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/13f4247b-848d-475d-83d5-f2fff083c70d/feaef63e-787c-4191-bec6-a4136e233de1"
@@ -2409,7 +2409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "deb939b8-5594-4250-8fc1-1c8b01c8f1d0")
-		(property "Reference" "J12"
+		(property "Reference" "J9"
 			(at 82.296 79.248 0)
 			(effects
 				(font
@@ -2475,7 +2475,7 @@
 					(unit 1)
 				)
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/13f4247b-848d-475d-83d5-f2fff083c70d/c3359d57-31d6-4e97-bb88-fe098e219bf4"
-					(reference "J12")
+					(reference "J9")
 					(unit 1)
 				)
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/13f4247b-848d-475d-83d5-f2fff083c70d/feaef63e-787c-4191-bec6-a4136e233de1"

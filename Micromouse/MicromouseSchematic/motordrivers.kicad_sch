@@ -4449,7 +4449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbb8b3ad-de53-4171-bef9-975d7b34612d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0101"
 			(at 210.82 166.37 0)
 			(effects
 				(font
@@ -4499,7 +4499,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "#PWR016")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
