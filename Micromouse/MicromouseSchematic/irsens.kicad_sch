@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "29bc10e6-3b8c-4bd4-bf82-854257c1735c")
 	(paper "A4")
 	(lib_symbols)
@@ -270,11 +270,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "13dfd103-1647-47ca-a8d4-32c9a2fd1e3b")
 		(property "Sheetname" "IR Sensor 2"
 			(at 105.41 56.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,6 +286,8 @@
 		)
 		(property "Sheetfile" "IR_Sensor.kicad_sch"
 			(at 105.41 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,11 +346,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "25d673b4-6a3b-4604-bba1-73aa25dddacb")
 		(property "Sheetname" "IR Sensor 3"
 			(at 64.77 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,6 +362,8 @@
 		)
 		(property "Sheetfile" "IR_Sensor.kicad_sch"
 			(at 64.77 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -414,11 +422,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c3359d57-31d6-4e97-bb88-fe098e219bf4")
 		(property "Sheetname" "IR Sensor 1"
 			(at 64.77 56.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -428,6 +438,8 @@
 		)
 		(property "Sheetfile" "IR_Sensor.kicad_sch"
 			(at 64.77 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,11 +498,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "feaef63e-787c-4191-bec6-a4136e233de1")
 		(property "Sheetname" "IR Sensor 4"
 			(at 105.41 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,6 +514,8 @@
 		)
 		(property "Sheetfile" "IR_Sensor.kicad_sch"
 			(at 105.41 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
