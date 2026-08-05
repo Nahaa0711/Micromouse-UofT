@@ -2374,7 +2374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05748655-f19d-410f-b8c1-6e39a93bed89")
-		(property "Reference" "J1"
+		(property "Reference" "J10"
 			(at 229.616 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2541,7 +2541,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "J1")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -2559,7 +2559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1be8d098-ae57-4ba4-9d27-b8c84902bea1")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR029"
 			(at 34.29 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2619,7 +2619,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "#PWR058")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2636,7 +2636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c39c0ee-f56a-45a4-9bc6-2af453f7ba89")
-		(property "Reference" "R41"
+		(property "Reference" "R4"
 			(at 40.64 62.738 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2788,7 +2788,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R41")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2806,7 +2806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25630f14-079e-416a-9909-a33269e2f3b2")
-		(property "Reference" "C37"
+		(property "Reference" "C21"
 			(at 83.82 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2828,7 +2828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.9752 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2958,7 +2958,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "C37")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -2976,7 +2976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bfb4967-a067-4ad8-9791-326c65155716")
-		(property "Reference" "J2"
+		(property "Reference" "J9"
 			(at 219.71 141.3255 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3143,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "J2")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3160,7 +3160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "325de71d-1393-4d2a-8ae9-7b38a1beea65")
-		(property "Reference" "R35"
+		(property "Reference" "R6"
 			(at 60.198 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3312,7 +3312,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R35")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3329,7 +3329,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38a2c612-db56-4e78-9c8a-591f73feed1b")
-		(property "Reference" "R39"
+		(property "Reference" "R5"
 			(at 48.768 135.382 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +3481,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R39")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3499,7 +3499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38f4c4f0-4139-4beb-b930-be9aad852cc9")
-		(property "Reference" "J13"
+		(property "Reference" "J8"
 			(at 33.655 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3558,7 +3558,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "J13")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3575,7 +3575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5556ec42-b071-4228-be09-c061cb3cfc10")
-		(property "Reference" "R40"
+		(property "Reference" "R10"
 			(at 162.052 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3727,7 +3727,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R40")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3745,7 +3745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62876535-4a49-4cd4-bb04-7024814addd2")
-		(property "Reference" "R42"
+		(property "Reference" "R11"
 			(at 162.814 46.482 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3897,7 +3897,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R42")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3915,7 +3915,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d5e0797-8253-492e-a915-4b1bd2de7b94")
-		(property "Reference" "R38"
+		(property "Reference" "R13"
 			(at 198.882 51.562 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4067,7 +4067,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R38")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4085,7 +4085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6b7a07-f2f9-4f27-8559-dacd9f529b96")
-		(property "Reference" "C41"
+		(property "Reference" "C20"
 			(at 81.28 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4107,7 +4107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.4352 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4237,7 +4237,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "C41")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4255,7 +4255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8760c248-147f-47eb-aa0e-73a2cddda463")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR030"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4315,7 +4315,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "#PWR08")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4333,7 +4333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e20fc21-d0bd-4c39-8a36-972b191003ec")
-		(property "Reference" "R21"
+		(property "Reference" "R9"
 			(at 151.13 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4355,7 +4355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.812 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -4485,7 +4485,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R21")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4503,7 +4503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "926001e8-3267-442a-9417-30d1a8718a2f")
-		(property "Reference" "J9"
+		(property "Reference" "J7"
 			(at 31.115 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4562,7 +4562,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "J9")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4580,7 +4580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "950d32f1-d96b-4eac-9ad8-59093d285254")
-		(property "Reference" "U11"
+		(property "Reference" "U2"
 			(at 113.03 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4762,7 +4762,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "U11")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4780,7 +4780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2d3566f-2b41-4523-8d68-f4c8e095d2b0")
-		(property "Reference" "R22"
+		(property "Reference" "R8"
 			(at 148.59 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4802,7 +4802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.272 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -4932,7 +4932,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R22")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4950,7 +4950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7799021-7b9e-47f8-b32c-4bfec64817cd")
-		(property "Reference" "C36"
+		(property "Reference" "C18"
 			(at 68.58 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4972,7 +4972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 65.7352 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -5102,7 +5102,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "C36")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5119,7 +5119,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a77b83d6-43d7-47c7-b6d2-68a709ff900c")
-		(property "Reference" "R37"
+		(property "Reference" "R7"
 			(at 67.818 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5271,7 +5271,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R37")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5459,7 +5459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b932d61b-98c2-48db-a590-6aa622d872aa")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR031"
 			(at 114.3 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5519,7 +5519,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "#PWR057")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5537,7 +5537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4f8dfcc-7123-4b69-8a88-39f7173b0856")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 115.57 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5719,7 +5719,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5736,7 +5736,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6a96e29-c860-4ba5-9341-374b3f2e5ae7")
-		(property "Reference" "R36"
+		(property "Reference" "R12"
 			(at 193.802 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5888,7 +5888,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R36")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5906,7 +5906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feb91c9a-c164-4dc4-87a8-19b7063c5927")
-		(property "Reference" "C3"
+		(property "Reference" "C19"
 			(at 71.12 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5928,7 +5928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.2752 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6058,7 +6058,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "C3")
+					(reference "C19")
 					(unit 1)
 				)
 			)
