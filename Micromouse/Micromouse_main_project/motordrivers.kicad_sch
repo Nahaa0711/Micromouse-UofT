@@ -1277,12 +1277,6 @@
 		(uuid "b7163212-b355-4fb9-b167-4148ba1141dd")
 	)
 	(junction
-		(at 48.26 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0040e468-eef3-4703-9b52-021dd7146d0f")
-	)
-	(junction
 		(at 77.47 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1323,6 +1317,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8558dc56-94b3-4fb1-93fc-03b9a58773dc")
+	)
+	(junction
+		(at 45.72 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9edd491b-9df8-4ac4-a67f-ed13c69d1625")
 	)
 	(junction
 		(at 95.25 78.74)
@@ -1408,7 +1408,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 102.87) (xy 153.67 102.87)
+			(xy 40.64 102.87) (xy 45.72 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1668,16 +1668,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 27.94) (xy 48.26 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57d20822-be34-412a-8fe9-61c04cb2dffd")
-	)
-	(wire
-		(pts
 			(xy 80.01 140.97) (xy 64.77 140.97)
 		)
 		(stroke
@@ -1745,6 +1735,16 @@
 			(type default)
 		)
 		(uuid "6d401853-6f07-4f9a-85ed-0efec707ce49")
+	)
+	(wire
+		(pts
+			(xy 45.72 104.14) (xy 45.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6277fa-298b-4b87-9aa1-fbaf93152cb6")
 	)
 	(wire
 		(pts
@@ -1928,6 +1928,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 102.87) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c5d175-81c2-421c-afac-cebab57ff04b")
+	)
+	(wire
+		(pts
 			(xy 156.21 57.15) (xy 156.21 24.13)
 		)
 		(stroke
@@ -1978,7 +1988,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 27.94) (xy 48.26 27.94)
+			(xy 34.29 27.94) (xy 52.07 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2166,16 +2176,6 @@
 		)
 		(uuid "f6c2e36f-eaec-4525-bd62-179d7a9b24f5")
 	)
-	(wire
-		(pts
-			(xy 48.26 27.94) (xy 34.29 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb880fb0-df3e-4f58-bb36-008db9caf904")
-	)
 	(hierarchical_label "3.3V"
 		(shape output)
 		(at 205.74 140.97 180)
@@ -2285,6 +2285,17 @@
 			(justify left)
 		)
 		(uuid "8bca2017-36ed-45db-98b3-afcb8bc3c9d8")
+	)
+	(hierarchical_label "Vin (7.4 V)"
+		(shape input)
+		(at 40.64 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90a929bd-4af0-4723-9b78-1ea99eb00f7c")
 	)
 	(hierarchical_label "NSLEEP_LDO(1)"
 		(shape input)
@@ -2396,7 +2407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical"
 			(at 226.06 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2998,7 +3009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical"
 			(at 217.17 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3519,7 +3530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 33.02 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3559,6 +3570,176 @@
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.72 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "506d0015-dbde-497b-9aad-35e998ec90b7")
+		(property "Reference" "Cin_MD2"
+			(at 49.53 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 49.53 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 46.6852 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 45.72 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 45.72 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 45.72 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 45.72 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 45.72 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 45.72 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 45.72 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 45.72 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "966beec2-b183-4ecf-ac36-824a39b0556f")
+		)
+		(pin "2"
+			(uuid "fb632b50-ae15-4b08-be17-7db93b28e725")
+		)
+		(instances
+			(project "MicromouseSchematic"
+				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
+					(reference "Cin_MD2")
 					(unit 1)
 				)
 			)
@@ -3898,6 +4079,84 @@
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a9f9a78-d7af-4b2c-9709-2ecd7279b303")
+		(property "Reference" "#PWR041"
+			(at 45.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f976543-3ed3-4379-a354-1818c9aecf62")
+		)
+		(instances
+			(project "MicromouseSchematic"
+				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4523,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 30.48 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4600,7 +4859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MM_MP6550G-Z:MP6550_MNP"
+		(property "Footprint" "footprints:IC12_MP6550_MNP"
 			(at 80.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5311,7 +5570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.2552 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5557,7 +5816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MM_MP6550G-Z:MP6550_MNP"
+		(property "Footprint" "footprints:IC12_MP6550_MNP"
 			(at 82.55 49.53 0)
 			(hide yes)
 			(show_name no)

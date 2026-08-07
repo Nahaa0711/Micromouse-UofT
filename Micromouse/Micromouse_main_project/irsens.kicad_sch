@@ -785,7 +785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 124.46 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -958,7 +958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 153.67 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1131,7 +1131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 153.67 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1382,7 +1382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 124.46 97.79 0)
 			(hide yes)
 			(show_name no)
