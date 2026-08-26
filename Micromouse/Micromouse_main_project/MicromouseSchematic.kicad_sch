@@ -4693,6 +4693,14 @@
 		(uuid "621f34ba-6e88-4640-b28a-fe9b8c0ddf44")
 	)
 	(no_connect
+		(at 49.53 85.09)
+		(uuid "62210960-4186-48d8-b689-4882269575d3")
+	)
+	(no_connect
+		(at 49.53 95.25)
+		(uuid "65cc0cf4-e9c9-4d64-8228-8db876ac9e82")
+	)
+	(no_connect
 		(at 49.53 115.57)
 		(uuid "715f0b85-04db-43c2-a38e-9aa1b9ae14c1")
 	)
@@ -4913,16 +4921,6 @@
 			(type default)
 		)
 		(uuid "131adfd4-b2df-4022-8d15-6fa414d7e3f7")
-	)
-	(wire
-		(pts
-			(xy 261.62 106.68) (xy 264.16 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13a0f681-858a-4573-ba2d-9436a8f932f0")
 	)
 	(wire
 		(pts
@@ -5556,16 +5554,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 85.09) (xy 49.53 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b4925f-fe16-43e8-a346-57bf9c1e0a98")
-	)
-	(wire
-		(pts
 			(xy 226.06 91.44) (xy 228.6 91.44)
 		)
 		(stroke
@@ -6106,16 +6094,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 106.68) (xy 228.6 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa3db428-b4e6-4dc5-9a79-dac574afd456")
-	)
-	(wire
-		(pts
 			(xy 26.67 34.29) (xy 26.67 35.56)
 		)
 		(stroke
@@ -6303,16 +6281,6 @@
 			(type default)
 		)
 		(uuid "c5b9c037-e915-470d-a116-bcce47034723")
-	)
-	(wire
-		(pts
-			(xy 46.99 95.25) (xy 49.53 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5c6a57e-346d-4489-85ef-afb993101116")
 	)
 	(wire
 		(pts
@@ -6948,30 +6916,6 @@
 			)
 		)
 	)
-	(global_label "NSLEEP_LDO_2"
-		(shape input)
-		(at 264.16 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "182b70b5-a9f3-401e-8c80-7c6ac5791dcb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.0546 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "IR_POW_4"
 		(shape input)
 		(at 212.09 142.24 0)
@@ -7537,30 +7481,6 @@
 		(uuid "5ed4b2ad-a364-4009-a3dd-4510a0276b6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.9334 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "NSLEEP_LDO_2"
-		(shape input)
-		(at 46.99 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6760868a-9808-4527-84d9-d5aa804c109a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0954 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8316,30 +8236,6 @@
 			)
 		)
 	)
-	(global_label "NSLEEP_LDO_1"
-		(shape input)
-		(at 46.99 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af32298a-7ded-4c9b-bb33-21ee647794c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0954 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "IMU_CLK"
 		(shape input)
 		(at 97.79 118.11 0)
@@ -8817,30 +8713,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "NSLEEP_LDO_1"
-		(shape input)
-		(at 226.06 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0882eb5-b286-4367-a1d7-37a06b9947ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.1654 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -16770,7 +16642,7 @@
 	)
 	(sheet
 		(at 228.6 67.31)
-		(size 33.02 43.18)
+		(size 33.02 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16796,7 +16668,7 @@
 			)
 		)
 		(property "Sheetfile" "motordrivers.kicad_sch"
-			(at 228.6 111.0746 0)
+			(at 228.6 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16849,26 +16721,6 @@
 		(pin "Encoder B (1)" output
 			(at 228.6 96.52 180)
 			(uuid "1f92cd2e-20e6-4634-9888-a5e04cc85256")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NSLEEP_LDO(2)" input
-			(at 261.62 106.68 0)
-			(uuid "d81a0c70-62d1-4796-a6a0-b0441fa7eb72")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NSLEEP_LDO(1)" input
-			(at 228.6 106.68 180)
-			(uuid "b4374510-b0c9-4129-a04d-1a0ba352a3fa")
 			(effects
 				(font
 					(size 1.27 1.27)

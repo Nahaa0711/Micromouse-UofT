@@ -1634,7 +1634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "198f12ee-a9e9-4db7-8e78-af9a69a7d929")
-		(property "Reference" "C23"
+		(property "Reference" "C21"
 			(at 141.224 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1786,7 +1786,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/020b5f85-8a9d-45f7-80e4-737602419b71"
-					(reference "C23")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -1804,7 +1804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c78e5e1-810a-4518-8a76-1cef1e4b2508")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 134.62 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1864,7 +1864,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/020b5f85-8a9d-45f7-80e4-737602419b71"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1882,7 +1882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f6a56d8-5225-4e89-bb18-1d36181232d3")
-		(property "Reference" "J15"
+		(property "Reference" "J9"
 			(at 209.55 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1961,7 +1961,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/020b5f85-8a9d-45f7-80e4-737602419b71"
-					(reference "J15")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1978,7 +1978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98e420e9-b2be-4608-bcd0-48f963437784")
-		(property "Reference" "C24"
+		(property "Reference" "C22"
 			(at 151.13 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2130,7 +2130,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/020b5f85-8a9d-45f7-80e4-737602419b71"
-					(reference "C24")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -2147,7 +2147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcc37763-760c-4310-b671-2469c91f29a8")
-		(property "Reference" "C25"
+		(property "Reference" "C23"
 			(at 162.052 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2299,7 +2299,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/020b5f85-8a9d-45f7-80e4-737602419b71"
-					(reference "C25")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -2570,7 +2570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb479248-67cc-468c-bd9e-784d1146f342")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 193.04 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2631,7 +2631,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/020b5f85-8a9d-45f7-80e4-737602419b71"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)

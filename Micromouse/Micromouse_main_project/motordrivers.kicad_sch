@@ -5,146 +5,6 @@
 	(uuid "27e61fe8-9cee-4b07-8c86-c238db45153a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -1277,12 +1137,6 @@
 		(uuid "b7163212-b355-4fb9-b167-4148ba1141dd")
 	)
 	(junction
-		(at 77.47 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d5d9ca7-94b2-45c2-b84a-9e9ac5008f50")
-	)
-	(junction
 		(at 64.77 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1293,24 +1147,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31c7ec0c-63fb-4901-ac30-71b0c7dbda19")
-	)
-	(junction
-		(at 77.47 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f52b92c-efda-472a-a505-6a59a86f70f4")
-	)
-	(junction
-		(at 80.01 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fdda8c0-4a0d-4f4d-9c7e-14d05b03f9d1")
-	)
-	(junction
-		(at 80.01 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f43a1f8-dd07-4116-a1cf-3c072a6a0df7")
 	)
 	(junction
 		(at 114.3 157.48)
@@ -1349,8 +1185,24 @@
 		(uuid "d9bed074-273e-4546-9fb5-98095ad45d04")
 	)
 	(no_connect
+		(at 82.55 57.15)
+		(uuid "7b80c45b-7ab8-4b6f-8827-f72c65fa9503")
+	)
+	(no_connect
 		(at 217.17 153.67)
 		(uuid "91ccd95c-4494-4c6c-b6ac-d202b4c7e38f")
+	)
+	(no_connect
+		(at 80.01 135.89)
+		(uuid "d6cac2e5-a49d-4090-922a-43b2095b093c")
+	)
+	(no_connect
+		(at 80.01 138.43)
+		(uuid "ef0260ad-4df4-4042-8f0d-32ad39b883a4")
+	)
+	(no_connect
+		(at 82.55 59.69)
+		(uuid "f7ec7b2e-5e72-404b-a5a3-328d55a529ac")
 	)
 	(no_connect
 		(at 226.06 74.93)
@@ -1438,16 +1290,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 67.31) (xy 80.01 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14797988-2b80-4b4d-a0a6-6b83c39b445a")
-	)
-	(wire
-		(pts
 			(xy 53.34 133.35) (xy 53.34 157.48)
 		)
 		(stroke
@@ -1465,16 +1307,6 @@
 			(type default)
 		)
 		(uuid "16c1ceec-73dd-4cb3-9957-947ec60a6d3d")
-	)
-	(wire
-		(pts
-			(xy 77.47 146.05) (xy 77.47 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1772fad2-3522-425c-a805-dc9d37acfc30")
 	)
 	(wire
 		(pts
@@ -1568,26 +1400,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 153.67) (xy 77.47 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "332a1744-731a-413f-ac97-596b641f6a27")
-	)
-	(wire
-		(pts
-			(xy 80.01 138.43) (xy 50.8 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "345ecaa8-cf35-4e8f-bf6b-ccfdab6a779d")
-	)
-	(wire
-		(pts
 			(xy 172.72 49.53) (xy 181.61 49.53)
 		)
 		(stroke
@@ -1608,16 +1420,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 157.48) (xy 114.3 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c18d094-c65e-4c81-9c09-eacaada6334b")
-	)
-	(wire
-		(pts
 			(xy 55.88 54.61) (xy 82.55 54.61)
 		)
 		(stroke
@@ -1635,16 +1437,6 @@
 			(type default)
 		)
 		(uuid "47444872-1d33-48ba-9134-fdb6c335e98e")
-	)
-	(wire
-		(pts
-			(xy 67.31 78.74) (xy 80.01 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5099e83a-3786-4a0b-9211-494a2cd03cf8")
 	)
 	(wire
 		(pts
@@ -1755,16 +1547,6 @@
 			(type default)
 		)
 		(uuid "73c63481-dea5-44c1-bbf1-c5432193f655")
-	)
-	(wire
-		(pts
-			(xy 35.56 57.15) (xy 80.01 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75dfa1c9-4a05-49ab-ad9e-bc43b4569be8")
 	)
 	(wire
 		(pts
@@ -1888,16 +1670,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 138.43) (xy 39.37 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dfc2f03-0cbe-49a2-8733-b21869caf3a0")
-	)
-	(wire
-		(pts
 			(xy 214.63 62.23) (xy 220.98 62.23)
 		)
 		(stroke
@@ -1918,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 157.48) (xy 77.47 157.48)
+			(xy 64.77 157.48) (xy 114.3 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1945,16 +1717,6 @@
 			(type default)
 		)
 		(uuid "a7402398-383a-422a-88cd-4bcdf1cfa6c6")
-	)
-	(wire
-		(pts
-			(xy 38.1 135.89) (xy 77.47 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adb8ef4f-6220-4c23-a902-bb195296064d")
 	)
 	(wire
 		(pts
@@ -1998,17 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 57.15) (xy 82.55 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baf0c4b0-250b-434b-a649-0f204ee6fac5")
-	)
-	(wire
-		(pts
-			(xy 80.01 78.74) (xy 95.25 78.74)
+			(xy 67.31 78.74) (xy 95.25 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2028,16 +1780,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 74.93) (xy 80.01 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c078b492-c102-43f1-9317-93ba32b9df83")
-	)
-	(wire
-		(pts
 			(xy 95.25 78.74) (xy 104.14 78.74)
 		)
 		(stroke
@@ -2045,16 +1787,6 @@
 			(type default)
 		)
 		(uuid "c2124f1a-d838-47d7-bf1d-b883b946383e")
-	)
-	(wire
-		(pts
-			(xy 77.47 135.89) (xy 80.01 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c221d7e7-9806-4d6e-929a-7f40652b51ed")
 	)
 	(wire
 		(pts
@@ -2075,16 +1807,6 @@
 			(type default)
 		)
 		(uuid "c6bd4d75-ff4c-4615-a8de-91e0d704495a")
-	)
-	(wire
-		(pts
-			(xy 35.56 59.69) (xy 38.1 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf04a5c1-96c1-406f-8691-ced5b4cc99b4")
 	)
 	(wire
 		(pts
@@ -2155,16 +1877,6 @@
 			(type default)
 		)
 		(uuid "f02a409c-e829-4ee2-98d1-f02b66d5014d")
-	)
-	(wire
-		(pts
-			(xy 45.72 59.69) (xy 82.55 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f36e50c5-5250-432e-9349-b8586253e63a")
 	)
 	(wire
 		(pts
@@ -2264,17 +1976,6 @@
 		)
 		(uuid "78ab0da1-f8ae-4d16-9ac1-c90712572793")
 	)
-	(hierarchical_label "NSLEEP_LDO(2)"
-		(shape input)
-		(at 39.37 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8677f0c6-4261-4043-a188-025bc8b34b26")
-	)
 	(hierarchical_label "VISEN(2)"
 		(shape output)
 		(at 158.75 130.81 0)
@@ -2296,17 +1997,6 @@
 			(justify right)
 		)
 		(uuid "90a929bd-4af0-4723-9b78-1ea99eb00f7c")
-	)
-	(hierarchical_label "NSLEEP_LDO(1)"
-		(shape input)
-		(at 35.56 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "90b7ba78-5796-4e27-970d-daf8943aa1a4")
 	)
 	(hierarchical_label "Encoder A (2)"
 		(shape output)
@@ -2385,7 +2075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05748655-f19d-410f-b8c1-6e39a93bed89")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 229.616 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2552,7 +2242,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2637,345 +2327,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 41.91 59.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c39c0ee-f56a-45a4-9bc6-2af453f7ba89")
-		(property "Reference" "R4"
-			(at 40.64 62.738 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 44.958 62.738 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 41.91 57.912 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 41.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 41.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 41.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 41.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 41.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 41.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 41.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 41.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 41.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf4cea2d-5151-4be8-8197-be2cadb3ccfb")
-		)
-		(pin "2"
-			(uuid "df63bbcb-b1bf-4da0-965a-4623aa06c0c3")
-		)
-		(instances
-			(project "MicromouseSchematic"
-				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 80.01 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25630f14-079e-416a-9909-a33269e2f3b2")
-		(property "Reference" "C21"
-			(at 83.82 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.47u"
-			(at 83.82 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 80.9752 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 80.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 80.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 80.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 80.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 80.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 80.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 80.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 80.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 80.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bcc24f4f-913e-448a-b2a3-0f42b6b25cef")
-		)
-		(pin "1"
-			(uuid "ca24bfe2-e378-430f-a1ed-6b21922c0d84")
-		)
-		(instances
-			(project "MicromouseSchematic"
-				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
 		(at 217.17 140.97 0)
 		(unit 1)
@@ -2987,7 +2338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bfb4967-a067-4ad8-9791-326c65155716")
-		(property "Reference" "J9"
+		(property "Reference" "J7"
 			(at 219.71 141.3255 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3154,7 +2505,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "J9")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3171,7 +2522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "325de71d-1393-4d2a-8ae9-7b38a1beea65")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 60.198 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,253 +2674,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 138.43 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "38a2c612-db56-4e78-9c8a-591f73feed1b")
-		(property "Reference" "R5"
-			(at 48.768 135.382 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 48.768 141.478 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 136.652 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 46.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 46.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 46.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 46.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 46.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 46.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 46.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 46.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11a7df04-e210-4332-9ef3-6a3e218407e2")
-		)
-		(pin "2"
-			(uuid "4c75a9c9-3c03-4c3c-b80e-a4c36d8b15c8")
-		)
-		(instances
-			(project "MicromouseSchematic"
-				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 33.02 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38f4c4f0-4139-4beb-b930-be9aad852cc9")
-		(property "Reference" "J8"
-			(at 33.655 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 33.655 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 33.02 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 33.02 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "623bd386-7339-4dc3-9d04-f5e54692d078")
-		)
-		(instances
-			(project "MicromouseSchematic"
-				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "J8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3756,7 +2861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5556ec42-b071-4228-be09-c061cb3cfc10")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 162.052 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3908,7 +3013,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3926,7 +3031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62876535-4a49-4cd4-bb04-7024814addd2")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 162.814 46.482 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4078,7 +3183,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4096,7 +3201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a9f9a78-d7af-4b2c-9709-2ecd7279b303")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR030"
 			(at 45.72 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4156,7 +3261,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "#PWR041")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4174,7 +3279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d5e0797-8253-492e-a915-4b1bd2de7b94")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 198.882 51.562 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4326,177 +3431,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 77.47 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d6b7a07-f2f9-4f27-8559-dacd9f529b96")
-		(property "Reference" "C20"
-			(at 81.28 148.5899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.47u"
-			(at 81.28 151.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 78.4352 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 77.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 77.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 77.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 77.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 77.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 77.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 77.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 77.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 77.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0a3f50c6-a1d0-410a-b04c-4bc1ab831169")
-		)
-		(pin "1"
-			(uuid "f906b6ee-b640-4968-9683-46c2e3ba1e7e")
-		)
-		(instances
-			(project "MicromouseSchematic"
-				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "C20")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4514,7 +3449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8760c248-147f-47eb-aa0e-73a2cddda463")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4574,7 +3509,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4592,7 +3527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e20fc21-d0bd-4c39-8a36-972b191003ec")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 151.13 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4744,84 +3679,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 30.48 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "926001e8-3267-442a-9417-30d1a8718a2f")
-		(property "Reference" "J7"
-			(at 31.115 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 31.115 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 30.48 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 30.48 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03bd3504-395a-40bb-b57f-500e3978d155")
-		)
-		(instances
-			(project "MicromouseSchematic"
-				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "J7")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5039,7 +3897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2d3566f-2b41-4523-8d68-f4c8e095d2b0")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 148.59 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5191,7 +4049,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5378,7 +4236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a77b83d6-43d7-47c7-b6d2-68a709ff900c")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 67.818 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,7 +4388,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5718,7 +4576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b932d61b-98c2-48db-a590-6aa622d872aa")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 114.3 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5778,7 +4636,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5995,7 +4853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6a96e29-c860-4ba5-9341-374b3f2e5ae7")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 193.802 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6147,7 +5005,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/cf2a6fe6-71ef-47dc-a740-f3079c853c7d"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
