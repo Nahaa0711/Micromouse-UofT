@@ -688,7 +688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "446646ae-9939-43de-84eb-564ff1032011")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 116.84 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -748,7 +748,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/13f4247b-848d-475d-83d5-f2fff083c70d"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -785,7 +785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical"
 			(at 124.46 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -958,7 +958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical"
 			(at 153.67 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1131,7 +1131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical"
 			(at 153.67 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1285,7 +1285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "751e6ee3-2988-43ae-ac23-3976bf9e0ad4")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 146.05 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1345,7 +1345,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/13f4247b-848d-475d-83d5-f2fff083c70d"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -1382,7 +1382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical"
 			(at 124.46 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1536,7 +1536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e178031e-17c0-40ae-99ca-123a012e751d")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 146.05 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1596,7 +1596,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/13f4247b-848d-475d-83d5-f2fff083c70d"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1614,7 +1614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f546de7b-46bc-4091-990c-4210bd4ea687")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1674,7 +1674,7 @@
 		(instances
 			(project "MicromouseSchematic"
 				(path "/0dcfab91-6b00-43c0-ac0b-8c301cb559e5/13f4247b-848d-475d-83d5-f2fff083c70d"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

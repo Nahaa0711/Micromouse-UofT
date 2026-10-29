@@ -1708,6 +1708,37 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Low-side NMOS switch"
+		(exclude_from_sim no)
+		(at 152.654 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d72a534-8230-472b-a199-e5ef02be5b33")
+	)
+	(text "Phototransistor converts IR into current, which gets reflected as voltage across R1\nvoltage saturates at 3.3V, R inversely proportionate to saturation current"
+		(exclude_from_sim no)
+		(at 138.938 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "91be61d0-e43d-45b2-b78a-5477dca56d49")
+	)
+	(text "IR emitter\n- 100 ohm resistor operates the emitter at 18-19mA"
+		(exclude_from_sim no)
+		(at 130.048 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c86e0d47-b7ff-4705-82d0-253fc8b8ad8c")
+	)
 	(text "+3.3V\nIR_POW\nIR_REC\nGND"
 		(exclude_from_sim no)
 		(at 84.836 78.994 0)
@@ -1719,10 +1750,34 @@
 		(uuid "fc3e03e8-b288-4d78-b77f-2c2a7fb8ba61")
 	)
 	(junction
-		(at 129.54 95.25)
+		(at 149.86 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "36edda1f-8a03-439e-b36e-6cc9ded3b8b3")
+		(uuid "06c7410a-6d07-4b07-b583-042cf8c35d30")
+	)
+	(junction
+		(at 128.27 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19ca0921-38ad-4fe2-9482-6ce5b58d3657")
+	)
+	(junction
+		(at 139.7 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37b82774-7cc0-4fb6-b03b-25be15957d28")
+	)
+	(junction
+		(at 149.86 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "478b667e-da1d-49ed-8d96-dfd2ad918660")
+	)
+	(junction
+		(at 128.27 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64489453-e863-4fe3-bb2b-4eb386f083d8")
 	)
 	(junction
 		(at 116.84 58.42)
@@ -1731,16 +1786,10 @@
 		(uuid "832e6d97-9a4d-4a16-a6eb-59ec97855efa")
 	)
 	(junction
-		(at 149.86 72.39)
+		(at 128.27 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ac20d0f-0d7a-4224-90c5-4b44daee12cc")
-	)
-	(junction
-		(at 148.59 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba8c896b-20c3-4015-bb9a-9ca018944718")
+		(uuid "a7dcc7ae-3778-49c5-8cb0-72f74136509d")
 	)
 	(junction
 		(at 116.84 95.25)
@@ -1749,16 +1798,10 @@
 		(uuid "bea22352-af19-496d-b7de-03681533c71e")
 	)
 	(junction
-		(at 129.54 83.82)
+		(at 139.7 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d204b7c0-18c2-4ec8-aa56-7ff5f626cc9e")
-	)
-	(junction
-		(at 129.54 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcb3a9bd-b844-4c61-8730-279f71db54db")
+		(uuid "c78d66c7-3ed0-4ce2-b158-8cda9c72fcc4")
 	)
 	(wire
 		(pts
@@ -1772,7 +1815,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 82.55) (xy 148.59 86.36)
+			(xy 139.7 93.98) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2d509e-259c-4543-a194-53f78d61e0dc")
+	)
+	(wire
+		(pts
+			(xy 149.86 69.85) (xy 149.86 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1782,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 82.55) (xy 129.54 83.82)
+			(xy 128.27 82.55) (xy 128.27 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1792,23 +1845,43 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 72.39) (xy 148.59 74.93)
+			(xy 139.7 85.09) (xy 139.7 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bd91c5b-6629-412f-8a0b-54190d860642")
+		(uuid "1ca37236-9620-47f8-ab90-5790a77e5078")
 	)
 	(wire
 		(pts
-			(xy 149.86 69.85) (xy 149.86 72.39)
+			(xy 168.91 82.55) (xy 168.91 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c6f4c11-ca49-4083-9d65-aafc6e06fab1")
+		(uuid "263fb6a8-c989-44d5-ad4f-c182b567f06f")
+	)
+	(wire
+		(pts
+			(xy 119.38 69.85) (xy 139.7 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bac1b36-53c8-4baf-99cf-208f56dc241a")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312f93a8-0cab-4f6b-ab8f-4dc7404415bc")
 	)
 	(wire
 		(pts
@@ -1822,53 +1895,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 95.25) (xy 170.18 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "457bf105-0db4-4b42-aebd-31f655463238")
-	)
-	(wire
-		(pts
-			(xy 119.38 64.77) (xy 142.24 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ad5b9ec-506d-406d-945d-b67620a42105")
-	)
-	(wire
-		(pts
-			(xy 148.59 95.25) (xy 170.18 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ce0360-61f8-44c2-8a33-dbf8a047d4aa")
-	)
-	(wire
-		(pts
-			(xy 129.54 95.25) (xy 148.59 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59eab9f8-df6a-4797-ab18-269b80d3862b")
-	)
-	(wire
-		(pts
-			(xy 129.54 58.42) (xy 129.54 72.39)
+			(xy 128.27 58.42) (xy 128.27 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "615228e1-0ff1-448c-bea9-42e7784ec178")
+	)
+	(wire
+		(pts
+			(xy 149.86 95.25) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66693886-39cb-4d1d-81d5-cb6c2d8099f0")
 	)
 	(wire
 		(pts
@@ -1892,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 58.42) (xy 149.86 59.69)
+			(xy 149.86 58.42) (xy 149.86 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1902,7 +1945,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 64.77) (xy 119.38 77.47)
+			(xy 168.91 58.42) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a2f308-604d-4d86-9a40-a15eb4aa6a05")
+	)
+	(wire
+		(pts
+			(xy 119.38 69.85) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 129.54 95.25)
+			(xy 116.84 95.25) (xy 128.27 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1932,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 83.82) (xy 129.54 83.82)
+			(xy 119.38 83.82) (xy 128.27 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1942,13 +1995,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 72.39) (xy 148.59 72.39)
+			(xy 128.27 95.25) (xy 139.7 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9701187e-9b45-4d4c-808f-fd87a4dae1f0")
+		(uuid "ac756683-df38-4d0b-84c6-7eb3b4aa9703")
 	)
 	(wire
 		(pts
@@ -1962,13 +2015,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 58.42) (xy 149.86 58.42)
+			(xy 168.91 58.42) (xy 168.91 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb25cacb-96c9-4332-bdad-512158ae3791")
+		(uuid "b2228926-ab93-41d9-9720-b73162a97056")
 	)
 	(wire
 		(pts
@@ -1982,7 +2035,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 58.42) (xy 129.54 58.42)
+			(xy 139.7 85.09) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08e9bf9-b361-498f-9729-9955ad277e09")
+	)
+	(wire
+		(pts
+			(xy 116.84 58.42) (xy 128.27 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1992,23 +2055,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 77.47) (xy 170.18 72.39)
+			(xy 128.27 58.42) (xy 149.86 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca25c276-e6c8-48d8-98d3-419a5e59a8b5")
-	)
-	(wire
-		(pts
-			(xy 170.18 72.39) (xy 149.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d872c2e9-b8a0-4a87-8da6-d4a013152003")
+		(uuid "d0819ddb-9db7-41b2-a505-0a2903290f98")
 	)
 	(wire
 		(pts
@@ -2022,23 +2075,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 92.71) (xy 129.54 95.25)
+			(xy 168.91 95.25) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e210bec2-c847-49e4-bc8f-22c35924ee94")
+	)
+	(wire
+		(pts
+			(xy 128.27 92.71) (xy 128.27 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e5f4c15a-3647-49f4-8778-1525ae8a3297")
-	)
-	(wire
-		(pts
-			(xy 148.59 95.25) (xy 148.59 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e674a400-db7a-4290-83ec-1b5967a72e09")
 	)
 	(wire
 		(pts
@@ -2052,13 +2105,239 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 129.54 85.09)
+			(xy 139.7 69.85) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28d0c86-cd7f-43c1-bd86-d34ad437b2b6")
+	)
+	(wire
+		(pts
+			(xy 128.27 83.82) (xy 128.27 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f561045b-48a0-4d31-80c6-60e8c05c6926")
+	)
+	(wire
+		(pts
+			(xy 149.86 78.74) (xy 149.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdefe0bb-6b49-4883-9a2f-f7f3354d148a")
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 147.32 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04d11a4d-da22-45a7-b730-aebe18cc5301")
+		(property "Reference" "Q2"
+			(at 153.67 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN3065LW-7"
+			(at 153.67 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MM_DMN3065LW-7:DMN3065LW-7"
+			(at 152.4 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 147.32 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 147.32 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 147.32 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c96c088-279b-4f1a-b809-edf420059108")
+		)
+		(pin "2"
+			(uuid "c7b601b5-c4f7-4b1e-b4f5-b0e5d8973fe0")
+		)
+		(pin "3"
+			(uuid "76d776b3-f987-49d5-880d-cb1e626770ee")
+		)
+		(instances
+			(project "IR_sensor_project"
+				(path "/9f8acf05-9ad9-49ba-ac27-81720e391f44"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2139,7 +2418,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 90.17 0)
+		(at 149.86 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2150,7 +2429,7 @@
 		(fields_autoplaced yes)
 		(uuid "1332ced3-48e7-4e06-a1b3-75a710f7b94d")
 		(property "Reference" "R2"
-			(at 151.384 88.8999 0)
+			(at 152.654 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2161,7 +2440,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 151.384 91.4399 0)
+			(at 152.654 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2172,7 +2451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 146.812 90.17 90)
+			(at 148.082 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2183,7 +2462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 90.17 0)
+			(at 149.86 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2194,7 +2473,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 90.17 0)
+			(at 149.86 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2205,7 +2484,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 148.59 90.17 0)
+			(at 149.86 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,7 +2495,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 148.59 90.17 0)
+			(at 149.86 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2227,7 +2506,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 148.59 90.17 0)
+			(at 149.86 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2238,7 +2517,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 148.59 90.17 0)
+			(at 149.86 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2249,7 +2528,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 148.59 90.17 0)
+			(at 149.86 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2260,7 +2539,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 148.59 90.17 0)
+			(at 149.86 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2271,7 +2550,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 148.59 90.17 0)
+			(at 149.86 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2282,7 +2561,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 148.59 90.17 0)
+			(at 149.86 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2309,7 +2588,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 88.9 0)
+		(at 128.27 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2320,7 +2599,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f86b2fb-0e85-4538-83aa-5916b6d0f33b")
 		(property "Reference" "R1"
-			(at 131.572 87.6299 0)
+			(at 130.302 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2331,7 +2610,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 131.572 90.1699 0)
+			(at 130.302 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2342,7 +2621,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127.762 88.9 90)
+			(at 126.492 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2353,7 +2632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2364,7 +2643,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2375,7 +2654,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 129.54 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2386,7 +2665,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 129.54 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,7 +2676,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 129.54 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2408,7 +2687,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 129.54 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2419,7 +2698,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 129.54 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2430,7 +2709,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 129.54 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2441,7 +2720,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 129.54 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2452,7 +2731,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 129.54 88.9 0)
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2478,8 +2757,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Optical:SFH300")
-		(at 127 77.47 0)
+		(lib_id "Device:C")
+		(at 168.91 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2488,9 +2767,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3aac2e3b-0fdd-47d7-bc94-9923b0a141aa")
-		(property "Reference" "Q1"
-			(at 132.08 75.4506 0)
+		(uuid "25ac63f5-e70d-4135-aba8-60a7754a312e")
+		(property "Reference" "C1"
+			(at 172.212 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2500,8 +2779,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SFH300"
-			(at 132.08 77.9906 0)
+		(property "Value" "100n"
+			(at 172.212 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2511,8 +2790,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
-			(at 139.192 81.026 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 169.8752 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2522,8 +2801,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic2/00101785_0.pdf"
-			(at 127 77.47 0)
+		(property "Datasheet" ""
+			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2533,8 +2812,8 @@
 				)
 			)
 		)
-		(property "Description" "silicon NPN phototransistor"
-			(at 127 77.47 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +2824,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 127 77.47 0)
+			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2556,7 +2835,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 127 77.47 0)
+			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2567,7 +2846,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 127 77.47 0)
+			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2578,7 +2857,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 127 77.47 0)
+			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2589,7 +2868,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 127 77.47 0)
+			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,7 +2879,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 127 77.47 0)
+			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2611,7 +2890,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 127 77.47 0)
+			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2622,7 +2901,176 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 127 77.47 0)
+			(at 168.91 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9a143cd-f0c2-4d27-877c-27005447333e")
+		)
+		(pin "2"
+			(uuid "4cd84f0e-133f-44a3-adb7-d529747d7049")
+		)
+		(instances
+			(project "IR_sensor_project"
+				(path "/9f8acf05-9ad9-49ba-ac27-81720e391f44"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Optical:SFH300")
+		(at 125.73 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3aac2e3b-0fdd-47d7-bc94-9923b0a141aa")
+		(property "Reference" "Q1"
+			(at 130.302 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SFH300"
+			(at 130.302 77.978 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 137.922 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic2/00101785_0.pdf"
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "silicon NPN phototransistor"
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 125.73 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2728,7 +3176,7 @@
 	)
 	(symbol
 		(lib_id "LED:SFH4550")
-		(at 148.59 77.47 90)
+		(at 149.86 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2739,7 +3187,7 @@
 		(fields_autoplaced yes)
 		(uuid "6488a1a5-57c0-49f1-b57e-1a60fd907a44")
 		(property "Reference" "D1"
-			(at 151.13 77.3429 90)
+			(at 152.4 64.6429 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2750,7 +3198,7 @@
 			)
 		)
 		(property "Value" "SFH4550"
-			(at 151.13 79.8829 90)
+			(at 152.4 67.1829 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2761,7 +3209,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
-			(at 144.145 77.47 0)
+			(at 145.415 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,7 +3220,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic3/00116140_0.pdf"
-			(at 148.59 78.74 0)
+			(at 149.86 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2783,7 +3231,7 @@
 			)
 		)
 		(property "Description" "950nm High-Power IR-LED, 5mm"
-			(at 148.59 77.47 0)
+			(at 149.86 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2794,7 +3242,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 148.59 77.47 90)
+			(at 149.86 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2805,7 +3253,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 148.59 77.47 90)
+			(at 149.86 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2816,7 +3264,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 148.59 77.47 90)
+			(at 149.86 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2827,7 +3275,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 148.59 77.47 90)
+			(at 149.86 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2838,7 +3286,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 148.59 77.47 90)
+			(at 149.86 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2849,7 +3297,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 148.59 77.47 90)
+			(at 149.86 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2860,7 +3308,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 148.59 77.47 90)
+			(at 149.86 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,7 +3319,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 148.59 77.47 90)
+			(at 149.86 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2969,176 +3417,6 @@
 			(project "IR_sensor_project"
 				(path "/9f8acf05-9ad9-49ba-ac27-81720e391f44"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 170.18 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a102fb27-e5b0-4cc8-b8a0-4dd97432d0b5")
-		(property "Reference" "C1"
-			(at 173.482 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 173.482 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 171.1452 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 170.18 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 170.18 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 170.18 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 170.18 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 170.18 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 170.18 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 170.18 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 170.18 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3e2f090-6db9-40c5-b877-7bb67d402ecf")
-		)
-		(pin "2"
-			(uuid "48f57980-a173-4ea7-a96e-be310ee8b8aa")
-		)
-		(instances
-			(project "IR_sensor_project"
-				(path "/9f8acf05-9ad9-49ba-ac27-81720e391f44"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3254,7 +3532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Horizontal"
 			(at 92.71 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3397,8 +3675,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 147.32 64.77 0)
+		(lib_id "Device:R")
+		(at 139.7 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3407,9 +3685,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e7e481ef-c273-4fd0-8978-56e517527732")
-		(property "Reference" "Q2"
-			(at 153.67 63.4999 0)
+		(uuid "ff229c9e-e1e5-41e3-bd88-a18dfb6df5a9")
+		(property "Reference" "R3"
+			(at 142.494 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3419,8 +3697,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMN3065LW-7"
-			(at 153.67 66.0399 0)
+		(property "Value" "100k"
+			(at 142.494 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3430,8 +3708,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MM_DMN3065LW-7:DMN3065LW-7"
-			(at 152.4 62.23 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 137.922 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,8 +3719,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 147.32 64.77 0)
+		(property "Datasheet" ""
+			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,41 +3730,8 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 147.32 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 147.32 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 147.32 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 147.32 80.01 0)
+		(property "Description" "Resistor"
+			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3497,7 +3742,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 147.32 64.77 0)
+			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,7 +3753,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 147.32 64.77 0)
+			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3519,7 +3764,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 147.32 64.77 0)
+			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,7 +3775,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 147.32 64.77 0)
+			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3541,7 +3786,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 147.32 64.77 0)
+			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3552,7 +3797,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 147.32 64.77 0)
+			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3563,7 +3808,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 147.32 64.77 0)
+			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3574,7 +3819,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 147.32 64.77 0)
+			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3585,18 +3830,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf68a8f3-1c22-4515-9c14-843b999daf48")
+			(uuid "e5ed9640-e216-41c5-84c0-85afb3458bfd")
 		)
 		(pin "2"
-			(uuid "bf9b1892-4274-4a8d-a498-206a71eb1e91")
-		)
-		(pin "3"
-			(uuid "da16dc7e-1a77-464b-bfe9-ab17b05c5e7d")
+			(uuid "e517f5ca-fbcc-42fa-9922-97de29099e6a")
 		)
 		(instances
 			(project "IR_sensor_project"
 				(path "/9f8acf05-9ad9-49ba-ac27-81720e391f44"
-					(reference "Q2")
+					(reference "R3")
 					(unit 1)
 				)
 			)

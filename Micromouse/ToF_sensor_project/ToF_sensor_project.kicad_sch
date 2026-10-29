@@ -1821,7 +1821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11dffb2b-7532-4d86-a72d-e2c56d6f5161")
-		(property "Reference" "C11"
+		(property "Reference" "C2"
 			(at 137.16 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1971,7 +1971,7 @@
 		(instances
 			(project "ToF_sensor_project"
 				(path "/a78c32f3-225d-44b3-9e1d-ab79a557afd0"
-					(reference "C11")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2089,7 +2089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MM_VL53L4CDV0DH-1:LGA12_STM"
+		(property "Footprint" "Sensor_Distance:ST_VL53L1x"
 			(at 130.175 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2267,7 +2267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "677156c4-e882-4ec3-a857-ae15585ef4ab")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR03"
 			(at 133.35 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2328,7 +2328,7 @@
 		(instances
 			(project "ToF_sensor_project"
 				(path "/a78c32f3-225d-44b3-9e1d-ab79a557afd0"
-					(reference "#PWR013")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2345,7 +2345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "718b99de-4a9b-42ec-9fe9-4c0b1c28beba")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 91.186 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2497,7 +2497,7 @@
 		(instances
 			(project "ToF_sensor_project"
 				(path "/a78c32f3-225d-44b3-9e1d-ab79a557afd0"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2514,7 +2514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "986ff1df-49db-464a-9389-ee925dc530e2")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 81.026 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,7 +2666,7 @@
 		(instances
 			(project "ToF_sensor_project"
 				(path "/a78c32f3-225d-44b3-9e1d-ab79a557afd0"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2684,7 +2684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e78e31-28b6-4a38-8871-14137c410895")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 57.785 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2704,7 +2704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Horizontal"
 			(at 57.15 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2758,7 +2758,7 @@
 		(instances
 			(project "ToF_sensor_project"
 				(path "/a78c32f3-225d-44b3-9e1d-ab79a557afd0"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2776,7 +2776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c671468b-d21c-48d6-ad34-abb2094b1ce7")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 64.135 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2837,7 +2837,7 @@
 		(instances
 			(project "ToF_sensor_project"
 				(path "/a78c32f3-225d-44b3-9e1d-ab79a557afd0"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2855,7 +2855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce2372a2-37b8-482c-82a5-120019d1994c")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 64.77 88.265 0)
 			(hide yes)
 			(show_name no)
@@ -2915,7 +2915,7 @@
 		(instances
 			(project "ToF_sensor_project"
 				(path "/a78c32f3-225d-44b3-9e1d-ab79a557afd0"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2933,7 +2933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b5791a-a90f-476b-98ab-148259f0f4b5")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR02"
 			(at 113.03 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2994,7 +2994,7 @@
 		(instances
 			(project "ToF_sensor_project"
 				(path "/a78c32f3-225d-44b3-9e1d-ab79a557afd0"
-					(reference "#PWR014")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3012,7 +3012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f22d07c7-440e-4601-ba00-a442151be102")
-		(property "Reference" "C9"
+		(property "Reference" "C1"
 			(at 126.238 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3162,7 +3162,7 @@
 		(instances
 			(project "ToF_sensor_project"
 				(path "/a78c32f3-225d-44b3-9e1d-ab79a557afd0"
-					(reference "C9")
+					(reference "C1")
 					(unit 1)
 				)
 			)
