@@ -543,7 +543,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "ToF_Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
