@@ -60,8 +60,8 @@ all: main-build
 main-build: micromouseFirmware.elf secondary-outputs
 
 # Tool invocations
-micromouseFirmware.elf micromouseFirmware.map: $(OBJS) $(USER_OBJS) C:\Users\mihya\STM32CubeIDE\workspace_1.19.0\micromouseFirmware\STM32F746VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "micromouseFirmware.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\mihya\STM32CubeIDE\workspace_1.19.0\micromouseFirmware\STM32F746VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="micromouseFirmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+micromouseFirmware.elf micromouseFirmware.map: $(OBJS) $(USER_OBJS) C:\Users\olive\OneDrive\Documents\GitHub\Micromouse-UofT\firmware\micromouseFirmware\STM32F746VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "micromouseFirmware.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\olive\OneDrive\Documents\GitHub\Micromouse-UofT\firmware\micromouseFirmware\STM32F746VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="micromouseFirmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

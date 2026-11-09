@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -36,6 +36,7 @@
 #define MO1_IN2   TIM_CHANNEL_2   // PD13  TIM4_CH2
 #define MO2_IN1   TIM_CHANNEL_3   // PD14  TIM4_CH3  Motor 2 (U2, J7)
 #define MO2_IN2   TIM_CHANNEL_4   // PD15  TIM4_CH4
+#define MOTOR_TEST_DUTY_PERCENT  50U
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -51,6 +52,8 @@ TIM_HandleTypeDef htim1;
 TIM_HandleTypeDef htim3;
 TIM_HandleTypeDef htim4;
 
+UART_HandleTypeDef huart1;
+
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -64,12 +67,56 @@ static void MX_TIM1_Init(void);
 static void MX_TIM3_Init(void);
 static void MX_TIM4_Init(void);
 static void MX_ADC2_Init(void);
+static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
-
+static void Motors_Stop(void);
+static void Motors_Forward(uint32_t duty);
+static void Motors_Backward(uint32_t duty);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+static void Motors_Stop(void)
+{
+  __HAL_TIM_SET_COMPARE(&htim4, MO1_IN1, 0U);
+  __HAL_TIM_SET_COMPARE(&htim4, MO1_IN2, 0U);
+  __HAL_TIM_SET_COMPARE(&htim4, MO2_IN1, 0U);
+  __HAL_TIM_SET_COMPARE(&htim4, MO2_IN2, 0U);
+
+  HAL_GPIO_WritePin(NSLEEP_HB_1_GPIO_Port, NSLEEP_HB_1_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(NSLEEP_HB_2_GPIO_Port, NSLEEP_HB_2_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+}
+
+static void Motors_Forward(uint32_t duty)
+{
+  Motors_Stop();
+  HAL_Delay(10);
+
+  __HAL_TIM_SET_COMPARE(&htim4, MO1_IN1, duty);
+  __HAL_TIM_SET_COMPARE(&htim4, MO1_IN2, 0U);
+  __HAL_TIM_SET_COMPARE(&htim4, MO2_IN1, duty);
+  __HAL_TIM_SET_COMPARE(&htim4, MO2_IN2, 0U);
+
+  HAL_GPIO_WritePin(NSLEEP_HB_1_GPIO_Port, NSLEEP_HB_1_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(NSLEEP_HB_2_GPIO_Port, NSLEEP_HB_2_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
+}
+
+static void Motors_Backward(uint32_t duty)
+{
+  Motors_Stop();
+  HAL_Delay(10);
+
+  __HAL_TIM_SET_COMPARE(&htim4, MO1_IN1, 0U);
+  __HAL_TIM_SET_COMPARE(&htim4, MO1_IN2, duty);
+  __HAL_TIM_SET_COMPARE(&htim4, MO2_IN1, 0U);
+  __HAL_TIM_SET_COMPARE(&htim4, MO2_IN2, duty);
+
+  HAL_GPIO_WritePin(NSLEEP_HB_1_GPIO_Port, NSLEEP_HB_1_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(NSLEEP_HB_2_GPIO_Port, NSLEEP_HB_2_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
+}
 
 /* USER CODE END 0 */
 
@@ -81,7 +128,22 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
+#if 0
+  /* Previous Bluetooth counter-transmit test. */
+  uint32_t counter = 0;
+  char message[32];
+#endif
 
+  uint8_t received_byte = 0;
+#if 0
+  /* Previous Bluetooth LED-control test responses. */
+  static const uint8_t led_on_message[] = "LED ON\r\n";
+  static const uint8_t led_off_message[] = "LED OFF\r\n";
+#endif
+  static const uint8_t forward_message[] = "FORWARD\r\n";
+  static const uint8_t backward_message[] = "BACKWARD\r\n";
+  static const uint8_t stop_message[] = "STOP\r\n";
+  uint32_t motor_duty = 0U;
   /* USER CODE END 1 */
 
   /* MPU Configuration--------------------------------------------------------*/
@@ -110,24 +172,42 @@ int main(void)
   MX_TIM3_Init();
   MX_TIM4_Init();
   MX_ADC2_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  uint32_t full = __HAL_TIM_GET_AUTORELOAD(&htim4) + 1;   // 100% duty cycle
+  /* Keep both motor drivers asleep during the Bluetooth-only test. */
+  HAL_GPIO_WritePin(NSLEEP_HB_1_GPIO_Port, NSLEEP_HB_1_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(NSLEEP_HB_2_GPIO_Port, NSLEEP_HB_2_Pin, GPIO_PIN_RESET);
 
-  /* Start PWM on all four motor inputs */
+  /* Motor test intentionally disabled to prevent motor current draw. */
+#if 0
+  uint32_t full = __HAL_TIM_GET_AUTORELOAD(&htim4) + 1;
+
   HAL_TIM_PWM_Start(&htim4, MO1_IN1);
   HAL_TIM_PWM_Start(&htim4, MO1_IN2);
   HAL_TIM_PWM_Start(&htim4, MO2_IN1);
   HAL_TIM_PWM_Start(&htim4, MO2_IN2);
 
-  /* Both motors forward, full speed: IN1 = high, IN2 = low */
   __HAL_TIM_SET_COMPARE(&htim4, MO1_IN1, full);
   __HAL_TIM_SET_COMPARE(&htim4, MO1_IN2, 0);
   __HAL_TIM_SET_COMPARE(&htim4, MO2_IN1, full);
   __HAL_TIM_SET_COMPARE(&htim4, MO2_IN2, 0);
 
-  /* Wake both H-bridges: NSLEEP_HB_1 (PE7) and NSLEEP_HB_2 (PE10) high */
   HAL_GPIO_WritePin(NSLEEP_HB_1_GPIO_Port, NSLEEP_HB_1_Pin, GPIO_PIN_SET);
   HAL_GPIO_WritePin(NSLEEP_HB_2_GPIO_Port, NSLEEP_HB_2_Pin, GPIO_PIN_SET);
+#endif
+
+  /* Start PWM with every input at 0% duty, then keep both drivers asleep. */
+  if (HAL_TIM_PWM_Start(&htim4, MO1_IN1) != HAL_OK ||
+      HAL_TIM_PWM_Start(&htim4, MO1_IN2) != HAL_OK ||
+      HAL_TIM_PWM_Start(&htim4, MO2_IN1) != HAL_OK ||
+      HAL_TIM_PWM_Start(&htim4, MO2_IN2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  motor_duty = ((__HAL_TIM_GET_AUTORELOAD(&htim4) + 1U) *
+                MOTOR_TEST_DUTY_PERCENT) / 100U;
+  Motors_Stop();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -137,8 +217,63 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);   // test LED (PB0) blinks = code is running
-    HAL_Delay(500);
+#if 0
+    /* Previous Bluetooth counter-transmit test. */
+    int length = snprintf(message, sizeof(message), "%lu\r\n",
+                          (unsigned long)counter++);
+
+    if (length > 0)
+    {
+      HAL_UART_Transmit(&huart1, (uint8_t *)message, (uint16_t)length, 100);
+    }
+
+    HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);   // heartbeat LED
+    HAL_Delay(1000);                         // send one number per second
+#endif
+
+#if 0
+    /* Previous Bluetooth LED-control test. */
+    if (HAL_UART_Receive(&huart1, &received_byte, 1, 100) == HAL_OK)
+    {
+      if (received_byte == '1')
+      {
+        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
+        HAL_UART_Transmit(&huart1, (uint8_t *)led_on_message,
+                          sizeof(led_on_message) - 1U, 100);
+      }
+      else if (received_byte == '0')
+      {
+        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+        HAL_UART_Transmit(&huart1, (uint8_t *)led_off_message,
+                          sizeof(led_off_message) - 1U, 100);
+      }
+      /* Other characters, including carriage return/newline, are ignored. */
+    }
+#endif
+
+    /* Receive one Bluetooth command; the timeout keeps the main loop responsive. */
+    if (HAL_UART_Receive(&huart1, &received_byte, 1, 100) == HAL_OK)
+    {
+      if (received_byte == 'f' || received_byte == 'F')
+      {
+        Motors_Forward(motor_duty);
+        HAL_UART_Transmit(&huart1, (uint8_t *)forward_message,
+                          sizeof(forward_message) - 1U, 100);
+      }
+      else if (received_byte == 'b' || received_byte == 'B')
+      {
+        Motors_Backward(motor_duty);
+        HAL_UART_Transmit(&huart1, (uint8_t *)backward_message,
+                          sizeof(backward_message) - 1U, 100);
+      }
+      else if (received_byte == 's' || received_byte == 'S')
+      {
+        Motors_Stop();
+        HAL_UART_Transmit(&huart1, (uint8_t *)stop_message,
+                          sizeof(stop_message) - 1U, 100);
+      }
+      /* Carriage return, newline, and other characters are ignored. */
+    }
   }
   /* USER CODE END 3 */
 }
@@ -463,6 +598,41 @@ static void MX_TIM4_Init(void)
 }
 
 /**
+  * @brief USART1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART1_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART1_Init 0 */
+
+  /* USER CODE END USART1_Init 0 */
+
+  /* USER CODE BEGIN USART1_Init 1 */
+
+  /* USER CODE END USART1_Init 1 */
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 9600;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART1_Init 2 */
+
+  /* USER CODE END USART1_Init 2 */
+
+}
+
+/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -501,6 +671,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : BT_EN_Pin BT_STATE_Pin */
+  GPIO_InitStruct.Pin = BT_EN_Pin|BT_STATE_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 

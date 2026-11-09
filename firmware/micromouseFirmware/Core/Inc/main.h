@@ -83,6 +83,10 @@ void Error_Handler(void);
 #define MO2_IN1_GPIO_Port GPIOD
 #define MO2_IN2_Pin GPIO_PIN_15
 #define MO2_IN2_GPIO_Port GPIOD
+#define BT_EN_Pin GPIO_PIN_4
+#define BT_EN_GPIO_Port GPIOB
+#define BT_STATE_Pin GPIO_PIN_5
+#define BT_STATE_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
